@@ -1,0 +1,26 @@
+!!! 5
+%html(lang="de")
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    %meta(name="description" content="#{description}")
+    %meta(name="keywords" content="#{keywords}")
+    %meta(name="Author" content="Sanna Rehfeld")
+    %meta(name="Copyright" content="focus fengshui, Sanna Rehfeld")
+
+    %title= 'focus fengshui' << (@item[:title].blank? ? ' - Beratung und Raumgestaltung Sanna Rehfeld' : " - #{@item[:title]}")
+
+    %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen")
+    %link(rel="stylesheet" href="/stylesheets/print.css" media="print")
+    /[if lte IE 9]
+      %link(rel="stylesheet" href="css/ie.css" type="text/css" media="screen")
+    %link(rel="stylesheet" href="/stylesheets/smallscreen.css" media="only screen and (max-width: 1023px)")
+    %link(rel="stylesheet" href="/stylesheets/mobile.css" media="handheld, only screen and (max-width: 767px)")
+    %link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+    %link(rel="icon" href="/favicon.ico" type="image/x-icon")
+
+  %body
+    #container
+      #main
+        = yield

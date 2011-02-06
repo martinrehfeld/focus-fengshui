@@ -1,0 +1,32 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    adsf (1.0.1)
+      rack (>= 1.0.0)
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    cri (1.0.1)
+    eleven40 (1.2)
+      compass (>= 0.10.0.rc3)
+    haml (3.0.25)
+    mime-types (1.16)
+    nanoc (3.1.6)
+      nanoc3 (>= 3.1.6)
+    nanoc3 (3.1.6)
+      cri (>= 1.0.0)
+    rack (1.2.1)
+    rake (0.8.7)
+    rdiscount (1.6.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  compass (= 0.10.6)
+  eleven40
+  haml
+  mime-types
+  nanoc
+  rake
+  rdiscount

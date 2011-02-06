@@ -1,0 +1,18 @@
+html, body, #container {
+  height: 100%;
+}
+
+#container {
+  min-width: 970px;
+  min-height: 768px;
+  background: {
+    color: $background-color;
+    image: image_url("background-content.png");
+    position: center top;
+    repeat: no-repeat;
+  };
+}
+
+#main {
+  display: none;
+}
