@@ -14,7 +14,8 @@ http_images_path = '/images'
 # relative_assets = true
 
 sass_options = {
-  :syntax => :scss
+  :syntax       => :scss,
+  :style        => :compressed
 }
 
 asset_cache_buster do |http_path, real_path|
