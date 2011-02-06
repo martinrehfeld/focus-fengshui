@@ -3,6 +3,7 @@ GEM
   specs:
     adsf (1.0.1)
       rack (>= 1.0.0)
+    builder (3.0.0)
     compass (0.10.6)
       haml (>= 3.0.4)
     cri (1.0.1)
@@ -23,6 +24,7 @@ PLATFORMS
 
 DEPENDENCIES
   adsf
+  builder
   compass (= 0.10.6)
   eleven40
   haml
