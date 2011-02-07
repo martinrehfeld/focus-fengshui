@@ -56,7 +56,7 @@ def apply_filters
     filter :haml, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
-    filter :rdiscount
+    filter :kramdown
   else
     filter :erb
   end

@@ -11,6 +11,7 @@ GEM
       compass (>= 0.10.0.rc3)
     haml (3.0.25)
     json (1.5.1)
+    kramdown (0.13.1)
     mime-types (1.16)
     nanoc (3.1.6)
       nanoc3 (>= 3.1.6)
@@ -19,7 +20,6 @@ GEM
     nokogiri (1.4.4)
     rack (1.2.1)
     rake (0.8.7)
-    rdiscount (1.6.8)
     w3c_validators (1.1.1)
       nokogiri
 
@@ -33,9 +33,9 @@ DEPENDENCIES
   eleven40
   haml
   json
+  kramdown
   mime-types
   nanoc
   nokogiri
   rake
-  rdiscount
   w3c_validators
