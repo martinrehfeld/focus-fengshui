@@ -1,10 +1,24 @@
+---
+title: Beratung und Raumgestaltung Sanna Rehfeld
+excerpt: 'focus fengshui : Analyse, Beratung und Raumgestaltung von Sanna Rehfeld, Berlin Zehlendorf'
+keywords:
+  - Feng Shui
+  - Analyse
+  - Beratung
+  - Raumgestaltung
+  - Berlin
+  - Zehlendorf
+  - focus fengshui
+  - Sanna Rehfeld
+---
+
 # focus fengshui
 
 ## Analyse, Beratung und Raumgestaltung von Sanna Rehfeld
 
-* nach traditionellem Feng Shui,
-* auf westliche Bedürfnisse übertragen,
-* individuell auf Sie und Ihre Räume zugeschnitten.
+- nach traditionellem Feng Shui,
+- auf westliche Bedürfnisse übertragen,
+- individuell auf Sie und Ihre Räume zugeschnitten.
 
 Gestalten Sie Ihre Welt und schaffen Sie Räume voller Energie zum erfolgreichen Arbeiten und harmonischen Wohnen.
 

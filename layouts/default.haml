@@ -4,12 +4,14 @@
     %meta(charset="utf-8")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
-    %meta(name="description" content="#{description}")
-    %meta(name="keywords" content="#{keywords}")
+    - unless description.blank?
+      %meta(name="description" content="#{description}")
+    - unless keywords.nil? || keywords.empty?
+      %meta(name="keywords" content="#{keywords}")
     %meta(name="Author" content="Sanna Rehfeld")
     %meta(name="Copyright" content="focus fengshui, Sanna Rehfeld")
 
-    %title= 'focus fengshui' << (@item[:title].blank? ? ' - Beratung und Raumgestaltung Sanna Rehfeld' : " - #{@item[:title]}")
+    %title= 'focus fengshui' << (@item[:title].blank? ? '' : " - #{@item[:title]}")
 
     %link(rel="stylesheet" type="text/css" href="/stylesheets/site.css")
     /[if lte IE 9]

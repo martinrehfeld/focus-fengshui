@@ -76,10 +76,10 @@ end
 
 # get keywords for <meta>
 def keywords
-  @site.config[:default_keywords].join(', ')
+  @item[:keywords].join(', ')
 end
 
 # get description for <meta>
 def description
-  @item[:excerpt] || @site.config[:default_description]
+  @item[:excerpt]
 end
