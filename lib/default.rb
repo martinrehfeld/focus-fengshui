@@ -45,7 +45,7 @@ end
 
 # Copy static assets outside of content instead of having nanoc3 process them.
 def copy_assets
-  FileUtils.cp_r 'assets/.', 'output/'
+  FileUtils.cp_r 'assets/.', 'output/', :preserve => true
 end
 
 def apply_filters
