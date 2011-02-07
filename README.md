@@ -30,6 +30,7 @@ Pflege der Inhalte
 
 Einmaliges Setup
 ----------------
+
 * git clone git@glnetworks.office-on-the.net:focus-fengshui.de
 * Ruby/Gems: rvm use ree@focus-fengshui
 * gem install bundler -v 1.0.10
