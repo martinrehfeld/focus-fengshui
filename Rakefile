@@ -15,6 +15,16 @@ task :watch => :compile do
   sh 'bundle exec nanoc autocompile'
 end
 
+desc "Run validations (fails when errors are found)"
+task :validate => :compile do
+  output = `rake validate:links`; puts output
+  if output =~ /^Broken link/
+    $stderr.puts 'Validation errors where found! ' +
+                 'Task ABORTED!'
+    exit 1
+  end
+end
+
 desc "Commit and tag changes to git repo"
 task :commit do
   sh 'git add .'
@@ -22,7 +32,7 @@ task :commit do
 end
 
 desc "Publish /output (commit, sync, tag and push)"
-task :publish => [:compile, :commit, :'deploy:s3']do
+task :publish => [:compile, :validate, :commit, :'deploy:s3']do
   sh 'git tag -f "live"'
   sh 'git push'
 end
