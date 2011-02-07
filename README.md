@@ -5,7 +5,7 @@ Pflege der Inhalte
 ------------------
 
 1. **Vorbereitung**:
-   Terminal.app starten und mittels `cd <Verzeichnis, in dem diese README.md Datei liegt>`
+   Terminal.app starten und mittels `cd <Verzeichnis, in dem diese Datei liegt>`
    in das Projektverzeichnis wechseln.
 
 2. **Inhalte editieren**:
