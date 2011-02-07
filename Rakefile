@@ -15,6 +15,17 @@ task :watch => :compile do
   sh 'bundle exec nanoc autocompile'
 end
 
+desc "Commit and tag changes to git repo"
+task :commit do
+  sh 'git add .'
+  sh 'git commit'
+end
+
+desc "Publish /output (commit, sync, tag)"
+task :publish => [:compile, :commit, :s3]do
+  sh 'git tag -f "live"'
+end
+
 namespace :deploy do
   desc "Sync compiled /output to S3"
   task :s3 do
