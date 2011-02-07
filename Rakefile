@@ -22,7 +22,7 @@ task :commit do
 end
 
 desc "Publish /output (commit, sync, tag)"
-task :publish => [:compile, :commit, :s3]do
+task :publish => [:compile, :commit, :'deploy:s3']do
   sh 'git tag -f "live"'
 end
 
