@@ -46,6 +46,6 @@ namespace :deploy do
       exit 1
     end
 
-    sh 's3cmd --verbose --force --progress --no-encrypt sync output/ s3://focus-fengshui.de'
+    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --delete-removed sync output/ s3://focus-fengshui.de"
   end
 end
