@@ -10,6 +10,7 @@ GEM
     eleven40 (1.2)
       compass (>= 0.10.0.rc3)
     haml (3.0.25)
+    json (1.5.1)
     mime-types (1.16)
     nanoc (3.1.6)
       nanoc3 (>= 3.1.6)
@@ -19,6 +20,8 @@ GEM
     rack (1.2.1)
     rake (0.8.7)
     rdiscount (1.6.8)
+    w3c_validators (1.1.1)
+      nokogiri
 
 PLATFORMS
   ruby
@@ -29,8 +32,10 @@ DEPENDENCIES
   compass (= 0.10.6)
   eleven40
   haml
+  json
   mime-types
   nanoc
   nokogiri
   rake
   rdiscount
+  w3c_validators
