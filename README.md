@@ -10,7 +10,7 @@ Pflege der Inhalte
 
 2. **Inhalte editieren**:
    Die Inhalte liegen im Verzeichnis `content/` und können zum Beispiel im
-   Markdown-Format erstellt werden, vgl. [Markdown Syntax](http://markdown.de/syntax/).
+   Markdown-Format erstellt werden, vgl. [Markdown Syntax](http://kramdown.rubyforge.org/quickref.html).
    Dateien im Markdown-Format müssen die Endung .html.md erhalten.
 
 3. **Seitenvorschau**:
