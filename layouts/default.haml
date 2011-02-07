@@ -11,11 +11,9 @@
 
     %title= 'focus fengshui' << (@item[:title].blank? ? ' - Beratung und Raumgestaltung Sanna Rehfeld' : " - #{@item[:title]}")
 
-    %link(rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen")
-    %link(rel="stylesheet" href="/stylesheets/print.css" media="print")
+    %link(rel="stylesheet" type="text/css" href="/stylesheets/site.css")
     /[if lte IE 9]
       %link(rel="stylesheet" href="css/ie.css" type="text/css" media="screen")
-    %link(rel="stylesheet" href="/stylesheets/smallscreen.css" media="only screen and (max-width: 1023px)")
     %link(rel="stylesheet" href="/stylesheets/mobile.css" media="handheld, only screen and (max-width: 767px)")
     %link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
     %link(rel="icon" href="/favicon.ico" type="image/x-icon")

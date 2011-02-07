@@ -3,9 +3,8 @@ is_hidden: true
 ---
 
 @import "compass";
-
-@import "eleven40/reset";
-@import "eleven40/base";
+@import "eleven40";
+@import "eleven40/smallscreen";
 @import "eleven40/typography";
 
 @import "_config/colors";
@@ -15,3 +14,14 @@ is_hidden: true
 @import "_global/links";
 
 @import "_layout/default";
+
+@media screen {
+  @include layout-default;
+}
+
+@media print {
+}
+
+@media only screen and (max-width: 1023px) {
+  @include eleven40-smallscreen-reset;
+}
