@@ -1,5 +1,20 @@
 require 'nanoc3/tasks'
 
+desc "Compile /content to /output"
+task :compile => :clean do
+  sh 'bundle exec nanoc compile'
+end
+
+desc "Preview (compile once) site on http://localhost:3000"
+task :preview => :compile do
+  sh 'bundle exec nanoc view'
+end
+
+desc "Watch (auto-compile) site on http://localhost:3000"
+task :watch => :compile do
+  sh 'bundle exec nanoc autocompile'
+end
+
 namespace :deploy do
   desc "Sync compiled /output to S3"
   task :s3 do
