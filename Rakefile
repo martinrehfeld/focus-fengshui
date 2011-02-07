@@ -21,9 +21,10 @@ task :commit do
   sh 'git commit' unless `git status` =~ /^nothing to commit/
 end
 
-desc "Publish /output (commit, sync, tag)"
+desc "Publish /output (commit, sync, tag and push)"
 task :publish => [:compile, :commit, :'deploy:s3']do
   sh 'git tag -f "live"'
+  sh 'git push'
 end
 
 namespace :deploy do
