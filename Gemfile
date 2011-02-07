@@ -9,3 +9,4 @@ gem 'compass', '= 0.10.6',          :require => nil
 gem 'eleven40',                     :require => nil
 gem 'rdiscount',                    :require => nil
 gem 'builder',                      :require => nil
+gem 'nokogiri',                     :require => nil
