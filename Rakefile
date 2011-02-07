@@ -18,7 +18,7 @@ end
 desc "Commit and tag changes to git repo"
 task :commit do
   sh 'git add .'
-  sh 'git commit'
+  sh 'git commit' unless `git status` =~ /^nothing to commit/
 end
 
 desc "Publish /output (commit, sync, tag)"
