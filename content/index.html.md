@@ -1,4 +1,5 @@
 # focus fengshui
+
 ## Analyse, Beratung und Raumgestaltung von Sanna Rehfeld
 
 * nach traditionellem Feng Shui,
@@ -13,10 +14,11 @@ Mehr über Feng Shui, Sanna Rehfeld und ihre Arbeitsweise erfahren Sie im März 
 
 ## Kontakt / Impressum
 
-    Sanna Rehfeld
+Sanna Rehfeld
 
-    Tel 030.343 585 05
-    sanna.rehfeld@focus-fengshui.de
+Tel 030.343 585 05
 
-    Zwingenberger Weg 10
-    14163 Berlin
+<sanna.rehfeld@focus-fengshui.de>
+
+Zwingenberger Weg 10\\
+14163 Berlin
