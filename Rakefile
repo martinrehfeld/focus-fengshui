@@ -40,12 +40,13 @@ end
 namespace :deploy do
   desc "Sync compiled /output to S3"
   task :s3 do
-    if Nanoc3::Site.new('.').nil?
+    site = Nanoc3::Site.new('.')
+    if site.nil?
       $stderr.puts 'The current working directory does not seem to be a ' +
                    'valid/complete nanoc site directory; aborting.'
       exit 1
     end
 
-    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --delete-removed sync output/ s3://focus-fengshui.de"
+    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --delete-removed sync output/ s3://#{site.config[:deploy][:default][:bucket]}"
   end
 end

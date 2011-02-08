@@ -40,4 +40,8 @@ data_sources:
     # same as the items root, but applies to layouts rather than items.
     layouts_root: /
 
+deploy:
+  default:
+      bucket: focus-fengshui.de
+
 base_url: http://www.focus-fengshui.de
