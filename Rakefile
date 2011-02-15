@@ -47,7 +47,7 @@ namespace :deploy do
       exit 1
     end
 
-    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --exclude='.DS_Store' --delete-removed sync output/ s3://#{site.config[:deploy]['default']['bucket']}"
+    sh "s3cmd --verbose --force --progress --no-encrypt --exclude='**.swp' --exclude='.DS_Store' --delete-removed sync output/ s3://#{site.config[:deploy][:default][:bucket]}"
 
   end
 end
