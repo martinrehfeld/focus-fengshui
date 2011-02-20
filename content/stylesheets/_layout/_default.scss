@@ -1,20 +1,54 @@
 @mixin layout-default {
-  html, body, #container {
-    height: 100%;
+  ul, ol {
+    li {
+      margin-left: 20px;
+    }
+  }
+
+  header {
+    .site-title {
+      font-size: 108px;
+      line-height: 108px;
+      margin: 0;
+    }
+    .site-subtitle {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 48px;
+    }
+    nav.site {
+      display: block;
+      margin-bottom: 24px;
+    }
+    .site-subtitle, nav.site {
+      margin-left: 55%;
+    }
   }
 
   #container {
-    min-width: 970px;
-    min-height: 768px;
-    background: {
-      color: $background-color;
-      image: image_url("background-content.png");
-      position: center top;
-      repeat: no-repeat;
-    };
   }
 
   #main {
-    display: none;
+    .menu {
+      nav {
+        margin-bottom: 48px;
+        a {
+          display: block;
+        }
+        a.level1 {
+          margin-top: 24px;
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+        a.level2 {
+          margin-left: 5%;
+        }
+      }
+    }
+  }
+
+  footer {
+    color: $footer-text-color;
   }
 }

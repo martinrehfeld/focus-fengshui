@@ -2,6 +2,21 @@
   @include eleven40-container;
 }
 
-#main {
+header, #main, footer {
   @include eleven40-row;
+}
+
+#main {
+  .menu {
+    @include eleven40-threecol;
+  }
+
+  .content {
+    @include eleven40-sixcol;
+  }
+
+  .sidebar {
+    @include eleven40-threecol;
+    @include eleven40-last;
+  }
 }
