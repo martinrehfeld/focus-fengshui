@@ -1,19 +1,21 @@
 @mixin layout-default {
   ul, ol {
     li {
-      margin-left: 20px;
+      margin-left: 21px;
     }
   }
 
   header {
+    margin-top: 24px;
+
     .site-title {
-      font-size: 108px;
-      line-height: 108px;
+      font-size: 96px;
+      line-height: 96px;
       margin: 0;
     }
     .site-subtitle {
-      font-size: 24px;
-      line-height: 24px;
+      font-size: 20px;
+      line-height: 20px;
       margin-bottom: 48px;
     }
     nav.site {
@@ -23,9 +25,6 @@
     .site-subtitle, nav.site {
       margin-left: 55%;
     }
-  }
-
-  #container {
   }
 
   #main {
@@ -49,6 +48,7 @@
   }
 
   footer {
+    margin-top: 24px;
     color: $footer-text-color;
   }
 }

@@ -1,1 +1,7 @@
 @include eleven40-typography;
+
+// fix the baseline grid
+h1 {
+  line-height: 48px;
+  margin-bottom: 24px;
+}
