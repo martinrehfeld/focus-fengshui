@@ -24,5 +24,24 @@
 
   %body
     #container
+      %header
+        %h1.site-title focus feng shui
+        %h2.site-subtitle Beratung und Raumgestaltung Sanna Rehfeld
+        %nav.site
+          = link_to 'Home', '/'
+          |
+          = link_to 'Kontakt', '/kontakt/'
+          |
+          = link_to 'Impressum', '/impressum/'
       #main
-        = yield
+        %section.menu
+          %nav.content
+            = link_to 'Feng Shui', '/feng-shui/', :class => 'level1'
+            = link_to 'Beratung', '/beratung/', :class => 'level1'
+            = link_to 'Sanna Rehfeld', '/sanna-rehfeld/', :class => 'level1'
+
+        %section.content
+          = yield
+        %section.sidebar
+      %footer
+        %p.copyright &copy; 2011 focus feng shui | Sanna Rehfeld
