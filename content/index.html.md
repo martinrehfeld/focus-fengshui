@@ -12,9 +12,7 @@ keywords:
   - Sanna Rehfeld
 ---
 
-# focus fengshui
-
-## Analyse, Beratung und Raumgestaltung von Sanna Rehfeld
+# Analyse, Beratung und Raumgestaltung von Sanna Rehfeld
 
 - nach traditionellem Feng Shui,
 - auf westliche Bedürfnisse übertragen,
