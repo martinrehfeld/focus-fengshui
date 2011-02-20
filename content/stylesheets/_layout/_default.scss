@@ -29,20 +29,18 @@
 
   #main {
     .menu {
-      nav {
-        margin-bottom: 48px;
-        a {
-          display: block;
+      margin-bottom: 48px;
+      a {
+        display: block;
+      }
+      a.level1 {
+        margin-top: 24px;
+        &:first-child {
+          margin-top: 0;
         }
-        a.level1 {
-          margin-top: 24px;
-          &:first-child {
-            margin-top: 0;
-          }
-        }
-        a.level2 {
-          margin-left: 5%;
-        }
+      }
+      a.level2 {
+        margin-left: 24px;
       }
     }
   }

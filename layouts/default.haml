@@ -34,11 +34,10 @@
           |
           = link_to 'Impressum', '/impressum/'
       #main
-        %section.menu
-          %nav.content
-            = link_to 'Feng Shui', '/feng-shui/', :class => 'level1'
-            = link_to 'Beratung', '/beratung/', :class => 'level1'
-            = link_to 'Sanna Rehfeld', '/sanna-rehfeld/', :class => 'level1'
+        %nav.menu
+          = menu_item 'Feng Shui', '/feng-shui/'
+          = menu_item 'Beratung', '/beratung/'
+          = menu_item 'Sanna Rehfeld', '/sanna-rehfeld/'
 
         %section.content
           = yield
