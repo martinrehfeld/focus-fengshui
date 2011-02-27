@@ -18,8 +18,7 @@ keywords:
 - auf westliche Bedürfnisse übertragen,
 - individuell auf Sie und Ihre Räume zugeschnitten.
 
-Gestalten Sie Ihre Welt und schaffen Sie Räume voller Energie zum erfolgreichen Arbeiten und harmonischen Wohnen.
+Gestalten Sie Räume voller Energie zum erfolgreichen Arbeiten und harmonischen Wohnen. focus fengshui unterstützt Sie dabei und gibt Ihnen Inspiration und Tipps zur Umsetzung.
 
-Die Beratung von Sanna Rehfeld unterstützt Sie dabei und gibt Ihnen Anregungen und Inspiration.
+Ihre Ziele bilden den Schwerpunkt. Ob privat oder im Job - werden Sie sich bewusst, was sie brauchen, und schaffen Sie die Umgebung, die Sie intensiv fördert. Denn Räume beeinflussen uns immer. Wäre doch schick, wenn sie es in unserem Sinne tun.
 
-Mehr über Feng Shui, Sanna Rehfeld und ihre Arbeitsweise erfahren Sie im März 2011, wenn das Unternehmen startet und diese Seite in voller Pracht ausgebaut ist.

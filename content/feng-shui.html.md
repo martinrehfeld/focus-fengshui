@@ -1,36 +1,33 @@
 ---
 title: Feng Shui
-excerpt: 'Beschreibung der Seite (Auszug für Google & Co)'
-keywords:
-  - Schlüsselworte
-  - für
-  - Google & Co
 ---
 
 # Feng Shui
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Feng Shui ist eine ca. 3.000 Jahre alte chinesische Lehre, die zum Ziel hat, einem Menschen den bestmöglichen Platz zwischen Erde und Himmel zu geben und somit ein möglichst langes, erfülltes Leben zu bieten. Sie ist ursprünglich aus Beobachtung und Dokumentation entstanden: Sowohl die Lage ertragreicher Ackerflächen als auch die Bewegungen des Sternenhimmels zur Ermittlung der richtigen Aussaattermine wurden schriftlich festgehalten, so dass diese empirische Forschung unserer heutigen Form der Naturwissenschaften sehr nahe kommt. Während zu Beginn also das nackte Überleben ausschlaggebend war, wurden die Erkenntnisse später auf die Wahl guter Begräbnisstätten angewandt und noch später auf die Errichtung und Ausstattung von optimalen Wohn- und Geschäftsbauten.
 
-## Unterpunkt 1
+Zu Feng Shui gehören ein Bündel verschiedener Methoden, die je nach Aufgabenstellung herangezogen werden. Alle Methoden basieren auf daoistischen Grundprinzipien wie z.B. Qi, yin und yang sowie die 5 Wandlungsphasen. Dies mutet alles herrlich bis irritierend fremd an. Letztendlich wurden aber viele der Erkenntnisse auch in westlich geprägten Kulturen längst gewonnen. Ob Design, Architektur, Gartengestaltung oder Kundenführung in Geschäften - in zahlreichen Themengebieten sind die Aspekte des Feng Shui hilfreich, um Sachverhalte einzuordnen und zu beschreiben.
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+## Qi
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Qi ist ein zentrales Konzept aus dem Daoismus, dem zugrundelegt, dass alles auf der Welt von Lebensenergie durchdrungen ist. Diesen Gedanken finden wir auch in der TCM wieder, die zur Gesunderhaltung den Qi-Fluss des Körpers z.B durch Akupunktur harmonisiert, oder bei asiatischen Kampfkünsten, in denen trainiert wird, das eigene Qi so stark auf eine Handkante zu konzentrieren, dass dicke Bretter durchschlagen werden.
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Qi in Zusammenhang mit Räumlichkeiten lässt sich sehr gut mit der Aufmerksamkeit des Betrachters vergleichen: Z.B. fliesst das meiste Qi dorthin, wo man beim Betrachten eines Raumes als erstes hinschaut. Diese Aufmerksamkeit kann aktiv gelenkt werden.
 
-## Unterpunkt 2
+Feng heisst Wasser und Shui Wind. Während das Wasser Qi sammelt, bewegt der Wind das Qi. Beides ist für eine gute Versorgung mit Qi wichtig. Ein Beispiel aus der Praxis: Um zu wissen, wo  gute Anbaugebiete im nördlichenrauhen China lagen, wurde beobachtet, wo sich der Morgennebel lange hält. Dort gab es also weniger Wind, ein milderes Klima und somit bessere Voraussetzungen für eine erfolgreiche Ernte. Der Chinese sagt: Das Wasser = der Nebel hält das Qi. Ein anderes Beispiel sind die Smog-Probleme in Großstädten. Der Stadtplaner sorgt mit Grünzonen als Frischluftschneisen für bessere Luftqualität. Der Chinese sagt: Der Wind bewegt das Qi und holt es von außen herein.
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+## Yin und Yang
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Yin und Yang steht für das Gegensätzliche, das einander bedingt. Es sind die zwei Seiten eines Berges: sonnig, warm, hell, trocken die eine - schattig, kühl, dunkel, feucht die andere. Das eine exisiert nicht ohne das andere und erst im Vergleich miteinander kann es beschrieben werden.
 
-## Unterpunkt 3
+Räume leben vom Wechselspiel zwischen yin und yang. Wie im Design dient dieser Kontrast dazu, Spannung zu erzeugen. Yang-Energie in Räumen ist die aktive, schaffende, nach außen gerichtete Energie während yin für Ruhe, Zurückgezogenheit und Regenerieren steht.
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+## Die 5 Wandlungsphasen
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Nichts auf der Welt ist von Dauer. Panta rhei - Alles fliesst. Die Chinesen entwickelten dafür das gedankliche Modell der 5 Wandlungsphasen (oder auch 5 Elemente). Dieses kann auf sämtliche Erscheinungen und Prozesse angewendet werden, z.B. um die verschiedenen Stadien des Jahresverlaufs zu beschreiben oder um sich die nötigen Schritte von Unternehmensentscheidungen vor Augen zu führen.
+
+Die Phasen weisen unterschiedliche Qualitäten und Ausdrucksformen auf und werden den Elementen Holz - Feuer - Erde - Metall - Wasser zugeordnet. In dieses System lassen sich sämtliche Phänomene einordnen - seien es Formen, Farben, Materialen oder Organe, Gefühle, Tageszeiten und Himmelsrichtungen.
+
+Sie unterstützen, schwächen, beschäftigen und kontrollieren einander. Im Feng Shui geht es darum, diese verschiedenen Qualitäten harmonisch auszugleichen. Darüber hinaus wird je nach Bedürfnis der Bewohner oder Anforderung an den Raum eine leichte Verschiebung zugunsten weniger Elemente erzeugt.
