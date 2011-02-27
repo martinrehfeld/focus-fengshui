@@ -64,8 +64,11 @@
   footer {
     margin-top: 24px;
     color: $footer-text-color;
-    .copyright {
+    .site-info > p {
       float: left;
+      .copyright {
+        margin-right: 10px;
+      }
     }
     nav {
       float: left;
@@ -73,6 +76,7 @@
       a {
         @include hover-link;
         color: $footer-text-color;
+        margin: 0 10px;
         font-weight: normal;
         &:hover {
           color: $footer-text-color;
