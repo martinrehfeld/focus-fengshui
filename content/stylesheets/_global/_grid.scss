@@ -20,3 +20,15 @@ header, #main, footer {
     @include eleven40-last;
   }
 }
+
+footer {
+  .spacer {
+    height: 24px;
+    @include eleven40-threecol;
+  }
+
+  .site-info {
+    @include eleven40-sixcol;
+    @include eleven40-last;
+  }
+}
