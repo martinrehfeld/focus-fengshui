@@ -32,6 +32,7 @@
           display: block;
         }
         a.level1 {
+          color: $menu-text-color;
           margin-top: 24px;
           &:first-child {
             margin-top: 0;
@@ -39,6 +40,7 @@
         }
         a.level2 {
           margin-left: 24px;
+          color: $submenu-text-color;
         }
       }
     }
@@ -47,6 +49,7 @@
       float: right;
       margin-left: 24px;
       font-weight: normal;
+      color: $toplink-text-color;
       @include hover-link;
     }
   }
