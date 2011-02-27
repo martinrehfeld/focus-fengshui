@@ -39,6 +39,13 @@
         margin-left: 24px;
       }
     }
+
+    .toplink {
+      float: right;
+      margin-left: 24px;
+      font-weight: normal;
+      @include hover-link;
+    }
   }
 
   footer {
