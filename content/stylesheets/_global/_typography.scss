@@ -14,8 +14,11 @@ body {
   font-family: $text-font-stack;
 }
 
-// fix the baseline grid
 h1 {
-  line-height: 48px;
-  margin-bottom: 24px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  padding-top: 24px;
 }
