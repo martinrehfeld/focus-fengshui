@@ -76,7 +76,7 @@ end
 
 # get keywords for <meta>
 def keywords
-  @item[:keywords].blank? ? nil : @item[:keywords].join(', ')
+  @item[:keywords].nil? ? nil : @item[:keywords].join(', ')
 end
 
 # get description for <meta>
