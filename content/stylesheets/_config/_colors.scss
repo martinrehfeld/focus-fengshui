@@ -1,4 +1,4 @@
-$background-color: #c8d4b0;
-$link-color: #0070bc;
-$link-hover-color: #f28f00;
-$footer-text-color: #aaa;
+$text-color: #6e0500;
+$footer-text-color: #9a9a9a;
+$link-color: $text-color;
+$link-hover-color: lighten($text-color, 10%);

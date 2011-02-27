@@ -1,8 +1,17 @@
 @include eleven40-typography;
 
+h1, h2, h3 {
+  font-family: $header-font-stack;
+}
+
+body {
+  font-family: $text-font-stack;
+  color: $text-color;
+}
+
 .toplink {
   font-size: 14px;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: $text-font-stack;
 }
 
 // fix the baseline grid
