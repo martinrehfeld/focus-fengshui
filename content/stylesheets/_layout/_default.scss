@@ -37,6 +37,13 @@
           &:first-child {
             margin-top: 0;
           }
+          &:hover, &.current {
+            margin-left: -16px;
+            padding-left: 16px;
+            background-image: image_url('triangle.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+          }
         }
         a.level2 {
           @include link-colors($submenu-text-color, $link-hover-color);

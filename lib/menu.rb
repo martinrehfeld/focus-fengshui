@@ -14,6 +14,10 @@ def menu_item(text, target, attributes={})
   end
   attributes[:class] << 'level1'
 
+  if item == @item
+    attributes[:class] << ' current'
+  end
+
   # parse content and find <h2> tags
   unless item[:extension] =~ /(.md|.markdown)\Z/
     raise "Only markdown is supported as source format for menu item pages (got: #{item[:extension].inspect})" unless item[:extension] =~ /(.md|.markdown)\Z/
