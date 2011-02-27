@@ -14,12 +14,13 @@ Geschäftsführerin eines kleinen Familienunternehmens mit zwei Kindern
 
 Dipl. Ing. Stadt- und Regionalplanerin\\
 Ausbildung zur zertifizierten Feng-Shui-Beraterin am Feng Shui College Berlin FSCB
+Fortbildungen in den Bereichen Gartengestaltung & Feng Shui sowie Farbe & Feng Shui
 
 ## Arbeitsweise
 
 In der Ausbildung war es mir sehr wichtig, die traditionellen Philosophien aus dem Daoismus kennen- und anwenden zu lernen. In meiner Arbeit verbinde ich sie intensiv mit den westlich geprägten Bedürfnissen der Bewohner und Nutzer, so dass auch sportlich pragmatische Lösungen entstehen können. Dieser praktisch-orientierte Ansatz bedeutet auch: Es gibt immer eine Lösung. Selbst bei suboptimalen Bedingungen gibt es stets Möglichkeiten der Verbesserung.
 
-Ziel von Feng Shui ist es, die einwirkenden Kräfte harmonisch auszugleichen. Hierfür arbeite ich insbesondere mit der Platzierung von Möbeln sowie Farben, Formen und Materialien. Wenn der Kunde es ausdrücklich wünscht, werden Symbole wie Springbrunnen, Fächer u.ä. eingesetzt.
+Ziel von Feng Shui ist es, die einwirkenden Kräfte harmonisch auszugleichen. Hierfür arbeite ich insbesondere mit der Platzierung von Möbeln sowie Farben, Formen und Materialien. Wenn der Kunde es ausdrücklich wünscht, werden traditionelle Symbole wie Springbrunnen, Fächer u.ä. eingesetzt.
 
 ## mehr über...
 
