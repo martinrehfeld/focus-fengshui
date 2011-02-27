@@ -29,10 +29,11 @@
         %h1.site-title focus feng shui
         %h2.site-subtitle Beratung und Raumgestaltung Sanna Rehfeld
       #main
-        %nav.menu
-          = menu_item 'Feng Shui', '/feng-shui/'
-          = menu_item 'Beratung', '/beratung/'
-          = menu_item 'Sanna Rehfeld', '/sanna-rehfeld/'
+        %section.menu
+          %nav
+            = menu_item 'Feng Shui', '/feng-shui/'
+            = menu_item 'Beratung', '/beratung/'
+            = menu_item 'Sanna Rehfeld', '/sanna-rehfeld/'
 
         %section.content
           = yield
