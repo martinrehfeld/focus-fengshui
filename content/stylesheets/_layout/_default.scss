@@ -69,6 +69,7 @@
     color: $footer-text-color;
     .site-info > p {
       float: left;
+      margin-bottom: 0;
       .copyright {
         margin-right: 10px;
       }
@@ -76,6 +77,7 @@
     nav {
       float: left;
       margin-left: 0.4em;
+      margin-bottom: 24px;
       a {
         @include hover-link;
         color: $footer-text-color;
