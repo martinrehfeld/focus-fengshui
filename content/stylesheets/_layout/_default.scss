@@ -32,15 +32,15 @@
           display: block;
         }
         a.level1 {
-          color: $menu-text-color;
+          @include link-colors($menu-text-color, $link-hover-color);
           margin-top: 24px;
           &:first-child {
             margin-top: 0;
           }
         }
         a.level2 {
+          @include link-colors($submenu-text-color, $link-hover-color);
           margin-left: 24px;
-          color: $submenu-text-color;
         }
       }
     }
