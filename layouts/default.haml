@@ -28,7 +28,8 @@
         %h2.site-subtitle Beratung und Raumgestaltung Sanna Rehfeld
       #main
         %section.menu
-          %nav= render 'menu'
+          %nav
+            = render 'menu'
 
         %section.content
           = yield
@@ -36,15 +37,15 @@
         %section.sidebar
           = @item[:content_for_sidebar]
 
-        %footer
-          .spacer
-          .site-info
-            %p
-              %span.copyright &copy; 2011 focus fengshui
-              |
-            %nav.site
-              = link_to 'Home', '/'
-              |
-              = link_to 'Kontakt', '/kontakt/'
-              |
-              = link_to 'Impressum', '/impressum/'
+      %footer
+        .spacer
+        .site-info
+          %p
+            %span.copyright &copy; 2011 focus fengshui
+            |
+          %nav.site
+            = link_to 'Home', '/'
+            |
+            = link_to 'Kontakt', '/kontakt/'
+            |
+            = link_to 'Impressum', '/impressum/'
