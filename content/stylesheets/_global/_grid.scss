@@ -21,6 +21,20 @@ header, #main, footer {
   }
 }
 
+.error-page {
+  #main .content {
+    @include eleven40-twelvecol;
+  }
+  footer {
+    .spacer {
+      display: none;
+    }
+    .site-info {
+      @include eleven40-twelvecol;
+    }
+  }
+}
+
 footer {
   .spacer {
     height: 24px;

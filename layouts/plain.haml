@@ -1,0 +1,44 @@
+!!! 5
+%html(lang="de")
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    - unless description.blank?
+      %meta(name="description" content="#{description}")
+    - unless keywords.nil? || keywords.empty?
+      %meta(name="keywords" content="#{keywords}")
+    %meta(name="Author" content="Sanna Rehfeld")
+    %meta(name="Copyright" content="focus fengshui, Sanna Rehfeld")
+
+    %title= 'focus fengshui' << (@item[:title].blank? ? '' : " - #{@item[:title]}")
+
+    %link(rel="stylesheet" href="/stylesheets/site.css" type="text/css")
+    /[if lte IE 9]
+      %link(rel="stylesheet" href="css/ie.css" type="text/css" media="screen")
+    %link(rel="stylesheet" href="/stylesheets/mobile.css" type="text/css" media="handheld, only screen and (max-width: 767px)")
+
+    %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js")
+    %script(type="text/javascript" src="/javascripts/site.js")
+
+  %body(class="error-page")
+    #container
+      %header
+        %h1.site-title focus fengshui
+        %h2.site-subtitle Beratung und Raumgestaltung Sanna Rehfeld
+      #main
+        %section.content
+          = yield
+
+        %footer
+          .spacer
+          .site-info
+            %p
+              %span.copyright &copy; 2011 focus fengshui
+              |
+            %nav.site
+              = link_to 'Home', '/'
+              |
+              = link_to 'Kontakt', '/kontakt/'
+              |
+              = link_to 'Impressum', '/impressum/'

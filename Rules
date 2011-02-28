@@ -47,6 +47,10 @@ route '/sitemap/' do
   item.identifier.chop + '.xml'
 end
 
+route '/404/' do
+  item.identifier.chop + '.html'
+end
+
 route '*' do
   item.identifier + 'index.html'
 end
