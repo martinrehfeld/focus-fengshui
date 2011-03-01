@@ -57,16 +57,26 @@
       }
     }
 
+    .sidebar {
+      color: $sidebar-text-color;
+      a {
+        @include hover-link;
+        font-weight: normal;
+      }
+    }
+
     .toplink {
       float: right;
       margin-left: 24px;
       font-weight: normal;
       color: $toplink-text-color;
       @include hover-link;
+      @include text-shadow(none);
     }
   }
 
   footer {
+    text-size: 80%;
     padding-top: 24px;
     color: $footer-text-color;
     .site-info > p {

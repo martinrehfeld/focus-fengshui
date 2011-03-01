@@ -1,4 +1,5 @@
 $text-color: #6e0500;
+$sidebar-text-color: transparentize($text-color, 0.5);
 $menu-text-color: $text-color;
 $submenu-text-color: transparentize($text-color, 0.5);
 $toplink-text-color: transparentize($text-color, 0.5);
