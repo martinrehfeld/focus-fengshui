@@ -25,7 +25,7 @@ task :validate => :compile do
   end
 end
 
-desc "Commit and tag changes to git repo"
+desc "Commit changes to git repo"
 task :commit do
   sh 'git add .'
   sh 'git commit' unless `git status` =~ /^nothing to commit/
