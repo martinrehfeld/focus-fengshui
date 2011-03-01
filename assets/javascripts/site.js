@@ -10,7 +10,7 @@
   },
 
   addToplinks: function () {
-    $('#main .content h2').append('<a class="toplink" href="#container">↑ Seitenanfang</a>');
+    $('#main .content h2').append('<a class="toplink" href="#top">↑ Seitenanfang</a>');
   },
 
   headerHomeLink: function() {
