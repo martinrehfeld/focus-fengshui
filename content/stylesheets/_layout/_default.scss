@@ -71,7 +71,6 @@
       font-weight: normal;
       color: $toplink-text-color;
       @include hover-link;
-      @include text-shadow(none);
     }
   }
 

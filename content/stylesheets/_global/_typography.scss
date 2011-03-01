@@ -23,7 +23,3 @@ h1 {
 h2 {
   padding-top: 24px;
 }
-
-h1, h2, h3 {
-  @include text-shadow($footer-text-color);
-}
