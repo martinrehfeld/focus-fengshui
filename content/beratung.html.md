@@ -4,7 +4,7 @@ title: Beratung
 
 # Beratung
 
-Ob liebevolles Familienleben oder knackige Geschäfte  - Wenn die individuellen Gegebenheiten eines Raumes optimiert werden, ist alles möglich: Gesundheit, Harmonie, Wohlstand und Erfolg.
+Ob liebevolles Familienleben oder knackige Geschäfte  -- Wenn die individuellen Gegebenheiten eines Raumes optimiert werden, ist alles möglich: Gesundheit, Harmonie, Wohlstand und Erfolg.
 
 focus fengshui unterstützt Sie hierfür mit folgenden Leistungen:
 

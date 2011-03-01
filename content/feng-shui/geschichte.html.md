@@ -2,7 +2,7 @@
 title: Geschichte
 ---
 
-# ein Hauch Geschichte
+# Ein Hauch Geschichte
 
 Feng Shui ist eine ca. 3.000 Jahre alte chinesische Lehre, die zum Ziel hat, einem Menschen den bestmöglichen Platz zwischen Erde und Himmel zu geben und somit ein möglichst langes, erfülltes Leben zu bieten.
 

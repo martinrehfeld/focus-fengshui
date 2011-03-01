@@ -10,7 +10,7 @@ Die chinesische Gartenkunst brachte jedoch viele Gestaltungsprinzipien hervor, d
 
 focus fengshui verwandelt daher Ihren Garten nicht in eine Gesteinssammlung, sondern beschäftigt sich mit Fragen wie z.B.
 
-- Wie erziele ich eine bestimmte Atmosphäre - und welche passt zu dem Haus und seinen Bewohnern?
+- Wie erziele ich eine bestimmte Atmosphäre -- und welche passt zu dem Haus und seinen Bewohnern?
 - Welche Farben, Proportionen und Materialien sind geeignet?
 - Wo sind Sichtachsen sinnvoll?
 - Wie vergrößere ich optisch kleine Gärten?
