@@ -2,8 +2,6 @@ include Nanoc3::Helpers::XMLSitemap
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::Capturing
 include Nanoc3::Helpers::LinkTo
-# include Nanoc3::Helpers::Blogging
-# include Nanoc3::Helpers::Tagging
 
 require 'fileutils'
 
@@ -47,8 +45,8 @@ def apply_filters
   if ext == 'haml' || ext.nil?
     filter :haml, :attr_wrapper => '"'
   elsif ext == 'md' || ext == 'markdown'
-    filter :erb
     filter :kramdown
+    filter :erb
   else
     filter :erb
   end
