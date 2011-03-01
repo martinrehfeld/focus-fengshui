@@ -42,6 +42,6 @@ data_sources:
 
 deploy:
   default:
-      bucket: focus-fengshui.de
+      bucket: www.focus-fengshui.de
 
 base_url: http://www.focus-fengshui.de
