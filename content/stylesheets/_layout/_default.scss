@@ -57,6 +57,11 @@
       }
     }
 
+    .content a {
+      @include hover-link;
+      font-weight: normal;
+    }
+
     .sidebar {
       color: $sidebar-text-color;
       a {
