@@ -4,7 +4,7 @@ title: Preise
 
 # Preise
 
-Die Preise einer Analyse und Beratung richten sich nach dem Arbeitsaufwand. Dazu zählt weniger die Raumgröße, als viel mehr wie viele Mitbewohner oder Mitarbeiter berücksichtigt werden sollen und welche Fragestellungen es gibt. Des weiteren bestimmen Sie, wie ausführlich die schriftliche Dokumentation wird und wie viele Entwürfe in welchem Ausarbeitungsgrad Sie haben möchten.
+Die Preise einer Analyse und Beratung richten sich nach dem Arbeitsaufwand. Dieser wird weniger durch die Raumgröße, als viel mehr durch die Anzahl der Mitbewohner oder Mitarbeiter, die berücksichtigt werden sollen, beeinflusst und hängt davon ab, welche Fragestellungen es gibt. Des weiteren bestimmen Sie selbst, wie ausführlich die schriftliche Dokumentation werden soll und wie viele Entwürfe in welchem Ausarbeitungsgrad Sie haben möchten.
 
 Gerne erstelle ich Ihnen Ihr maßgeschneidertes Angebot.\\
 Zur Orientierung finden Sie hier ungefähre Preise:
@@ -28,4 +28,3 @@ ab 7,- € / qm.
 Stundensatz: 60,- €
 - Anfahrten innerhalb Berlins sind inbegriffen.
 - Preise zzgl. Mehrwertsteuer
-
