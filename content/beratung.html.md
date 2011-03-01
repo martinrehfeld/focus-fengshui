@@ -20,12 +20,3 @@ focus fengshui unterstützt Sie hierfür mit folgenden Leistungen:
 Besonders clever und kostengünstig ist es, Feng Shui-Expertise bereits vor Abschluss eines Kauf- oder Mietvertrages heranzuziehen. So können Sie sicher gehen, ein möglichst großes Potential auszuschöpfen. Auch ein gemeinsames Anschauen und Besprechen der Pläne des gewählten Objektes lohnt sich, um günstige Bereiche für Bett oder Schreibtisch zu finden ober besondere Knackpunkte aufzuspüren. Spätestens wenn Sie widerwillig nach Hause kommen oder keine Ruhe finden, sollten Sie sich beraten lassen, wie Sie Ihre Räume zum Partner in allen Lebenslagen machen können.
 
 
-
-## Kontakt
-
-focus fengshui
-Sanna Rehfeld
-
-sanna.rehfeld@focus-fengshui.de
-Tel: 030.343 585 05
-

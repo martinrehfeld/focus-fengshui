@@ -4,7 +4,7 @@ title: Feng Shui Grundlagen
 
 # Grundlagen
 
-Wer sich mit Feng Shui beschäftigt, braucht Kenntnisse über Prinzipien, die in der Philosophie des Daoismus entwickelt wurden wie z.B. Qi, Yin und Yang und die 5 Wandlungspahsen. Sie sind die Basis für sämtlichen Methoden des Feng Shui.
+Wer sich mit Feng Shui beschäftigt, braucht Kenntnisse über Prinzipien, die in der Philosophie des Daoismus entwickelt wurden wie z.B. Qi, Yin und Yang und die 5 Wandlungspahsen. Sie sind die Basis für sämtliche Methoden des Feng Shui.
 
 ## Qi
 
