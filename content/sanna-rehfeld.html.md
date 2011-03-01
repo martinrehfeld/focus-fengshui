@@ -1,10 +1,5 @@
 ---
 title: Sanna Rehfeld
-excerpt: 'Beschreibung der Seite (Auszug für Google & Co)'
-keywords:
-  - Schlüsselworte
-  - für
-  - Google & Co
 ---
 
 # Sanna Rehfeld
@@ -32,9 +27,7 @@ Erfahrungen im Wohnen
 - mit den speziellen Faktoren Kleinkinder und kabelliebende Kaninchen
 
 
-
 Berufliche Entwicklung
-
 
 - Die ersten Jobs: Einzelhandel und Vergnügungsstätten\\
 Eisverkauf,Vogelfutter mischen und Kaninchen verkaufen im Kiez, Kinos dekorieren und Gummibärchen bestellen

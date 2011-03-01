@@ -1,6 +1,7 @@
 ---
 title: Ablauf
 ---
+
 # Ablauf
 
 Wenn Sie mit mir in Kontakt treten, verabreden wir ein unverbindliches und kostenloses ca. einstündiges Vorgespräch. Sie können meinen Arbeitstil genauer kennen lernen und mir ihre Wünsche und Ziele erklären. Dazu bringen Sie bitte Ihren Grundriß bzw. die Baupläne Ihres Objektes und ggf. Fotos mit. Je nach Umfang und Fragestellungen kann ich Ihnen vergleichbare Projektdokumentationen zeigen. Bei einer Beauftragung besprechen wir anschliessend Ihren individuellen Leistungsumfang sowie den Zeitplan.

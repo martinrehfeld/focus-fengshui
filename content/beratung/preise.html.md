@@ -1,6 +1,7 @@
 ---
 title: Preise
 ---
+
 # Preise
 
 Die Preise einer Analyse und Beratung richten sich nach dem Arbeitsaufwand. Dazu zählt weniger die Raumgröße, als viel mehr wie viele Mitbewohner oder Mitarbeiter berücksichtigt werden sollen und welche Fragestellungen es gibt. Des weiteren bestimmen Sie, wie ausführlich die schriftliche Dokumentation wird und wie viele Entwürfe in welchem Ausarbeitungsgrad Sie haben möchten.

@@ -1,10 +1,5 @@
 ---
 title: Beratung
-excerpt: 'Beschreibung der Seite (Auszug für Google & Co)'
-keywords:
-  - Schlüsselworte
-  - für
-  - Google & Co
 ---
 
 # Beratung

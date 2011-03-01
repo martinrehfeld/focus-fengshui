@@ -1,9 +1,14 @@
 ---
 title: Feng Shui Grundlagen
 ---
+
+# Grundlagen
+
+Wer sich mit Feng Shui beschäftigt, braucht Kenntnisse über Prinzipien, die in der Philosophie des Daoismus entwickelt wurden wie z.B. Qi, Yin und Yang und die 5 Wandlungspahsen. Sie sind die Basis für sämtlichen Methoden des Feng Shui.
+
 ## Qi
 
-Qi ist ein zentrales Konzept aus dem Daoismus, dem zugrundelegt, dass alles auf der Welt von Lebensenergie durchdrungen ist. Diesen Gedanken finden wir auch in der TCM wieder, die zur Gesunderhaltung den Qi-Fluss des Körpers z.B durch Akupunktur harmonisiert, oder bei asiatischen Kampfkünsten, in denen trainiert wird, das eigene Qi so stark auf eine Handkante zu konzentrieren, dass dicke Bretter durchschlagen werden.
+Qi ist ein zentrales daoistisches Konzept, dem zugrundeliegt, dass alles auf der Welt von Lebensenergie durchdrungen ist. Diesen Gedanken finden wir auch in der TCM wieder, die zur Gesunderhaltung den Qi-Fluss des Körpers z.B durch Akupunktur harmonisiert, oder bei asiatischen Kampfkünsten, in denen trainiert wird, das eigene Qi so stark auf eine Handkante zu konzentrieren, dass dicke Bretter durchschlagen werden.
 
 Qi in Zusammenhang mit Räumlichkeiten lässt sich sehr gut mit der Aufmerksamkeit des Betrachters vergleichen: Z.B. fliesst das meiste Qi dorthin, wo man beim Betrachten eines Raumes als erstes hinschaut. Diese Aufmerksamkeit kann aktiv gelenkt werden.
 
