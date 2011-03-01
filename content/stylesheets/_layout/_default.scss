@@ -61,6 +61,7 @@
       color: $sidebar-text-color;
       a {
         @include hover-link;
+        @include link-colors($sidebar-text-color, $link-hover-color);
         font-weight: normal;
       }
     }
