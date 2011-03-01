@@ -7,21 +7,16 @@
   }
 
   header {
-    margin-top: 48px;
-    height: 215px;
-    @include replace-text('focus-feng-shui-logo.png', 0%, 0%);
+    margin: 48px 0;
 
-    .site-title {
-      font-size: 96px;
-      line-height: 96px;
-      padding: 0 0 0 71px;
+    .logo {
+      max-width: 120%;
     }
-    .site-subtitle {
-      font-size: 20px;
-      line-height: 20px;
-      padding: 0 0 0 71px;
-      margin-bottom: 96px;
+
+    .site-title, .site-subtitle {
+      display: none;
     }
+
     &:hover {
       cursor: pointer;
     }
