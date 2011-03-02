@@ -1,25 +1,16 @@
 @mixin layout-default {
-  ul, ol {
-    li {
-      margin-left: 21px;
-      margin-bottom: 0;
-    }
-  }
 
   header {
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 68px;
 
     .logo {
       max-width: 120%;
+      margin: 0;
     }
 
     .site-title, .site-subtitle {
       display: none;
-    }
-
-    &:hover {
-      cursor: pointer;
     }
   }
 
@@ -30,6 +21,7 @@
         padding-left: 47px;
         a {
           display: block;
+          font-weight: bold;
           &:hover, &.current {
             background-image: image_url('triangle.png');
             background-repeat: no-repeat;
@@ -60,7 +52,6 @@
 
     .content a {
       @include hover-link;
-      font-weight: normal;
     }
 
     .sidebar {
@@ -68,9 +59,9 @@
       a {
         @include hover-link;
         @include link-colors($sidebar-text-color, $link-hover-color);
-        font-weight: normal;
       }
       .portrait {
+        @include border-radius(3px);
         margin-bottom: 10px;
       }
     }
@@ -78,8 +69,7 @@
     .toplink {
       float: right;
       margin-left: 24px;
-      font-weight: normal;
-      color: $toplink-text-color;
+      @include link-colors($toplink-text-color);
       @include hover-link;
     }
   }
@@ -100,13 +90,9 @@
       margin-left: 0.4em;
       margin-bottom: 24px;
       a {
+        @include link-colors($footer-text-color, $footer-text-color);
         @include hover-link;
-        color: $footer-text-color;
         margin: 0 10px;
-        font-weight: normal;
-        &:hover {
-          color: $footer-text-color;
-        }
       }
     }
   }

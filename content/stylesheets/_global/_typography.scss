@@ -1,17 +1,33 @@
-@include eleven40-typography;
-
-h1, h2, h3 {
-  font-family: $header-font-stack;
+img, object, embed {
+  margin-bottom: 20px;
 }
 
 body {
   font-family: $text-font-stack;
   color: $text-color;
+  font-size: 14px;
+  line-height: 24px;    /* Changing this will break the baseline grid. */
+  -webkit-text-size-adjust: none;    /* Stops the iPhone scalling type up */
 }
 
-.toplink {
-  font-size: 14px;
-  font-family: $text-font-stack;
+a img {
+  display: block;    /* Stops image links getting text link styles */
+}
+
+p, ul, ol, blockquote {
+  margin-bottom: 24px;  /* Changing this will break the baseline grid. */
+}
+
+li {
+  margin-left: 21px;
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 1px solid #c1c1c1;
+  color: #747474;
+  padding-left: 15px;
+  margin-left: -15px;
 }
 
 h1 {
@@ -21,5 +37,23 @@ h1 {
 }
 
 h2 {
+  font-size: 20px;
   padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+
+h1, h2, h3 {
+  font-family: $header-font-stack;
+  font-weight: lighter;
+}
+
+.toplink {
+  font-size: 14px;
+  font-family: $text-font-stack;
 }
