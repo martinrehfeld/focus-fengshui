@@ -1,12 +1,12 @@
 ({
-  init: function() {
+  init: function(global) {
     // support HTML5 elements in older browsers
     'article aside footer header nav section time'.replace(/\w+/g,function (n) {
       document.createElement(n);
     });
 
     $(this.addToplinks);
-    $(window).resize(this.doLayout);
+    $(global).resize(this.doLayout);
     $(this.doLayout);
   },
 
@@ -22,4 +22,4 @@
 
     $('header .logo').height(acutalLogoWidth * logoAspectRatio);
   }
-}).init();
+}).init(this);
