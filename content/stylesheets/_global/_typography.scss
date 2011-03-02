@@ -6,8 +6,7 @@ body {
   font-family: $text-font-stack;
   color: $text-color;
   font-size: 14px;
-  line-height: 24px;    /* Changing this will break the baseline grid. */
-  -webkit-text-size-adjust: none;    /* Stops the iPhone scalling type up */
+  line-height: 24px;
 }
 
 a img {
@@ -15,7 +14,7 @@ a img {
 }
 
 p, ul, ol, blockquote {
-  margin-bottom: 24px;  /* Changing this will break the baseline grid. */
+  margin-bottom: 24px;
 }
 
 li {
