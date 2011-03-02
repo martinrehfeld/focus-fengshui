@@ -6,9 +6,20 @@
     });
 
     $(this.addToplinks);
+    $(window).resize(this.doLayout);
+    $(this.doLayout);
   },
 
   addToplinks: function () {
     $('#main .content h2').append('<a class="toplink" href="#top">↑ Seitenanfang</a>');
+  },
+
+  doLayout: function() {
+    var fullLogoHeight = 151;
+    var fullLogoWidth = 1140;
+    var logoAspectRatio = fullLogoHeight / fullLogoWidth;
+    var acutalLogoWidth = $('header').innerWidth();
+
+    $('header .logo').height(acutalLogoWidth * logoAspectRatio);
   }
 }).init();
