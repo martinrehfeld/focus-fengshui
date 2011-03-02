@@ -1,4 +1,3 @@
-* fix html (unmatched p) on home page (at beginning of sidebar content)
 * Variable font sizes when zooming page
 * Pre-calculate logo height to avoid jumping content on page load
 * Stick to baseline grid in sidebar (home page)

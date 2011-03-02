@@ -23,9 +23,14 @@ Gestalten Sie Räume voller Energie zum erfolgreichen Arbeiten und harmonischen 
 Ihre Ziele bilden den Schwerpunkt.\\
 Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen Sie die Umgebung, die Sie intensiv fördert. Denn Räume beeinflussen uns immer. Wäre doch schick, wenn sie es in unserem Sinne tun.
 
-{::nomarkdown}<% content_for :sidebar do %>{:/}
+{::nomarkdown}
+<% content_for :sidebar do %>
+{:/}
 ![Sanna Rehfeld](/images/sanna.jpg){:class="portrait"}
 
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 030.343 585 05
-{::nomarkdown}<% end %>{:/}
+
+{::nomarkdown}
+<% end %>
+{:/}
