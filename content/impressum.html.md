@@ -14,13 +14,13 @@ Sanna Rehfeld
 
 Tel 030.343 585 05\\
 Fax 030.454 821 68\\
-<sanna.rehfeld@focus-fengshui.de>
+<info@focus-fengshui.de>
 
 Zwingenberger Weg 10\\
 14163 Berlin-Zehlendorf\\
 Deutschland
 
-Steuernummer: 17/487/72306
+Steuernummer: 25/487/00067
 
 ## Haftungshinweis
 
