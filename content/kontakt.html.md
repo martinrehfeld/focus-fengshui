@@ -12,10 +12,9 @@ keywords:
 
 Sanna Rehfeld
 
-<info@focus-fengshui.de>
-
 Tel 030.343 585 05\\
-Fax 030.454 821 68
+Fax 030.454 821 68\\
+<info@focus-fengshui.de>
 
 Zwingenberger Weg 10\\
 14163 Berlin-Zehlendorf
