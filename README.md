@@ -5,7 +5,7 @@ Pflege der Inhalte
 ------------------
 
 1. **Vorbereitung**:
-   Terminal.app starten und mittels `cd <Verzeichnis, in dem diese Datei liegt>`
+   Terminal.app starten und mittels `cd ~/Sites/focus-fengshui.de`
    in das Projektverzeichnis wechseln.
 
 2. **Inhalte editieren**:
@@ -20,10 +20,10 @@ Pflege der Inhalte
 4. **Seite publizieren**:
    Das im Terminal ggf. laufende `rake watch` aus Schritt 3 kann mit `Ctrl+C`
    beendet werden. Mittels `rake publish` wird die Veröffentlichung gestartet.
-   Zuvor die Links der Web Site überprüft. Wenn alle Links passen, werden als
+   Zuvor werden die Links der Web Site überprüft. Wenn alle Links passen, werden als
    nächstes die vorgenommenen Änderungen protokolliert ("committed").
    Es öffnet sich ein Editor-Fenster, in dem eine kurze Beschreibung der
-   vorgenommenen Änderungen eingegeben werden muss. Der Vorgang wird fortgesetzt,
+   vorgenommenen Änderungen eingegeben werden muss (gleich oben beim Cursor). Der Vorgang wird fortgesetzt,
    wenn das Editor-Fenster gespeichert und geschlossen wurde.
    Als letzter Schritt werden alle Änderungen zum Webhosting bei Amazon hochgeladen.
 
