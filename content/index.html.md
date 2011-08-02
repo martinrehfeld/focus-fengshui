@@ -28,8 +28,8 @@ Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen
 {:/}
 ![Sanna Rehfeld](/images/sanna.jpg){:class="portrait"}
 
-<info@focus-fengshui.de>\\
-Tel 030.343 585 05
+<sanna.rehfeld@focus-fengshui.de>\\
+Tel 0172 / 680 44 48
 
 {::nomarkdown}
 <% end %>
