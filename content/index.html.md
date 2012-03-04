@@ -36,6 +36,7 @@ Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen
 {:/}
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 0172 / 680 44 48
+{:class="handwriting contact"}
 
 {::nomarkdown}
 <% end %>

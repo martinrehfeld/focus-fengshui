@@ -14,7 +14,7 @@
             box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
   }
 
-  p, img {
+  > p, p > img {
     margin: 0;
   }
 }
