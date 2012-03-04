@@ -24,32 +24,34 @@
   %body
     #top.page-container
       %header
-        %a(href="/" rel="index")
-          %img(src="/images/focus-feng-shui-logo.png" alt="Logo" class="logo")
+        .logo-box
+          %a(href="/" rel="index")
+            %img.logo(src="/images/focus-feng-shui-logo.png" alt="Logo")
         %h1.site-title focus fengshui
         %h2.site-subtitle Beratung und Raumgestaltung Sanna Rehfeld
       #main
-        %section.menu
-          %nav
-            = render 'menu'
+        .main-box
+          %section.menu
+            %nav
+              = render 'menu'
 
-        %section.content
-          = yield
+          %section.content
+            = yield
 
-        %section.sidebar
-          - unless @item[:content_for_image].blank?
-            .drop-shadow.lifted.rotated= @item[:content_for_image]
-          = @item[:content_for_sidebar]
+            %footer
+              .site-info
+                %p
+                  %span.copyright &copy; 2011 focus fengshui
+                  |
+                %nav.site
+                  = link_to 'Home', '/'
+                  |
+                  = link_to 'Kontakt', '/kontakt/'
+                  |
+                  = link_to 'Impressum', '/impressum/'
 
-      %footer
-        .spacer
-        .site-info
-          %p
-            %span.copyright &copy; 2011 focus fengshui
-            |
-          %nav.site
-            = link_to 'Home', '/'
-            |
-            = link_to 'Kontakt', '/kontakt/'
-            |
-            = link_to 'Impressum', '/impressum/'
+          %section.sidebar
+            - unless @item[:content_for_image].blank?
+              .drop-shadow.inset.lifted-5.rotated= @item[:content_for_image]
+            = @item[:content_for_sidebar]
+

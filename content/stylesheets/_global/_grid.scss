@@ -2,7 +2,7 @@
   @include eleven40-container;
 }
 
-header, #main, footer {
+header, #main {
   @include eleven40-row;
 }
 
@@ -24,25 +24,5 @@ header, #main, footer {
 .error-page {
   #main .content {
     @include eleven40-twelvecol;
-  }
-  footer {
-    .spacer {
-      display: none;
-    }
-    .site-info {
-      @include eleven40-twelvecol;
-    }
-  }
-}
-
-footer {
-  .spacer {
-    height: 24px;
-    @include eleven40-threecol;
-  }
-
-  .site-info {
-    @include eleven40-sixcol;
-    @include eleven40-last;
   }
 }

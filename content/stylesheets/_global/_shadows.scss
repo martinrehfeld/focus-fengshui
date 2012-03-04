@@ -4,9 +4,15 @@
   padding:0.5em;
   margin:2em 10px 2em;
   background:#fff;
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+
+  &.inset {
+    -webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
 
   p, img {
     margin: 0;
@@ -25,6 +31,28 @@
 
 .lifted:before,
 .lifted:after {
+  bottom:13px;
+  left:10px;
+  width:50%;
+  height:20%;
+  -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+          box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+  @include rotate(-1deg);
+}
+
+.lifted:after {
+  right:10px;
+  left:auto;
+  @include rotate(1deg);
+}
+
+.lifted-5 {
+  @include border-radius(4px);
+}
+
+.lifted-5:before,
+.lifted-5:after {
   bottom:15px;
   left:10px;
   width:50%;
@@ -36,7 +64,7 @@
   @include rotate(-5deg);
 }
 
-.lifted:after {
+.lifted-5:after {
   right:10px;
   left:auto;
   @include rotate(5deg);
