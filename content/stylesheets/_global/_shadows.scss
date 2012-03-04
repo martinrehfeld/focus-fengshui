@@ -1,0 +1,63 @@
+.drop-shadow {
+  position:relative;
+  float:left;
+  padding:0.5em;
+  margin:2em 10px 2em;
+  background:#fff;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+  p, img {
+    margin: 0;
+  }
+}
+
+.drop-shadow:before, .drop-shadow:after {
+  content:"";
+  position:absolute;
+  z-index:-2;
+}
+
+.lifted {
+  @include border-radius(4px);
+}
+
+.lifted:before,
+.lifted:after {
+  bottom:15px;
+  left:10px;
+  width:50%;
+  height:20%;
+  max-width:300px;
+  -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+          box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+  @include rotate(-5deg);
+}
+
+.lifted:after {
+  right:10px;
+  left:auto;
+  @include rotate(5deg);
+}
+
+.rotated {
+  border: 5px solid white;
+  @include box-shadow(none);
+  @include rotate(5deg);
+}
+
+.rotated > :first-child:before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:#fff;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}

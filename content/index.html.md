@@ -25,8 +25,12 @@ Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen
 
 {::nomarkdown}
 <% content_for :sidebar do %>
+<div class="drop-shadow lifted rotated">
 {:/}
-![Sanna Rehfeld](/images/sannarehfeld.jpg){:class="portrait"}{:title="Fotograf: Jens Wiese"}
+![Sanna Rehfeld](/images/sannarehfeld.jpg){:title="Fotograf: Jens Wiese"}
+{::nomarkdown}
+</div>
+{:/}
 
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 0172 / 680 44 48

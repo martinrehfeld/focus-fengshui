@@ -63,10 +63,6 @@
         @include hover-link;
         @include link-colors($sidebar-text-color, $link-hover-color);
       }
-      .portrait {
-        @include border-radius(3px);
-        margin-bottom: 10px;
-      }
     }
 
     .toplink {
