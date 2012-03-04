@@ -18,8 +18,9 @@
     var fullLogoHeight = 167;
     var fullLogoWidth = 1140;
     var logoAspectRatio = fullLogoHeight / fullLogoWidth;
-    var acutalLogoWidth = $('header').innerWidth();
+    var acutalLogoWidth = $('header').innerWidth() - 34;
 
-    $('header .logo').height(acutalLogoWidth * logoAspectRatio);
+    $('header .logo-box, header .logo').height(acutalLogoWidth * logoAspectRatio);
+    $('header .logo-box, header .logo').width(acutalLogoWidth);
   }
 }).init(this);
