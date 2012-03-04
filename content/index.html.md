@@ -24,14 +24,16 @@ Ihre Ziele bilden den Schwerpunkt.\\
 Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen Sie die Umgebung, die Sie intensiv fördert. Denn Räume beeinflussen uns immer. Wäre doch schick, wenn sie es in unserem Sinne tun.
 
 {::nomarkdown}
-<% content_for :sidebar do %>
-<div class="drop-shadow lifted rotated">
+<% content_for :image do %>
 {:/}
 ![Sanna Rehfeld](/images/sannarehfeld.jpg){:title="Fotograf: Jens Wiese"}
 {::nomarkdown}
-</div>
+<% end %>
 {:/}
 
+{::nomarkdown}
+<% content_for :sidebar do %>
+{:/}
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 0172 / 680 44 48
 

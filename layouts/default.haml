@@ -37,6 +37,8 @@
           = yield
 
         %section.sidebar
+          - unless @item[:content_for_image].blank?
+            .drop-shadow.lifted.rotated= @item[:content_for_image]
           = @item[:content_for_sidebar]
 
       %footer
