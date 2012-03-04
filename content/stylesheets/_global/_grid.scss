@@ -12,11 +12,14 @@ header, #main {
   }
 
   .content {
-    @include eleven40-sixcol;
+    @include eleven40-fivecol;
   }
 
   .sidebar {
-    @include eleven40-threecol;
+    .sidebar-box {
+      padding-left: 42px;
+    }
+    @include eleven40-fourcol;
     @include eleven40-last;
   }
 }
