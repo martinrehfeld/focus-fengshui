@@ -51,7 +51,9 @@
                   = link_to 'Impressum', '/impressum/'
 
           %section.sidebar
-            - unless @item[:content_for_image].blank?
-              .drop-shadow.inset.lifted-5.rotated= @item[:content_for_image]
-            = @item[:content_for_sidebar]
+            .sidebar-box
+              - unless @item[:content_for_image].blank?
+                .drop-shadow.inset.lifted-5.rotated= @item[:content_for_image]
+                .clearfix
+              = @item[:content_for_sidebar]
 

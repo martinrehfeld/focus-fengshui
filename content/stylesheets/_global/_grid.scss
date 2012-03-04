@@ -26,3 +26,7 @@ header, #main {
     @include eleven40-twelvecol;
   }
 }
+
+.clearfix {
+  clear: both;
+}
