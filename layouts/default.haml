@@ -53,7 +53,7 @@
           %section.sidebar
             .sidebar-box
               - unless @item[:content_for_image].blank?
-                .drop-shadow.inset.lifted-5.rotated= @item[:content_for_image]
+                .polaroid-image= @item[:content_for_image]
                 .clearfix
               = @item[:content_for_sidebar]
 
