@@ -28,3 +28,11 @@ ab 7,- € / qm.
 Stundensatz: 60,- €
 - Anfahrten innerhalb Berlins sind inbegriffen.
 - Preise zzgl. Mehrwertsteuer
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Kasse](/images/kasse.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

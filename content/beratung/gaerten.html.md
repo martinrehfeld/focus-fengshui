@@ -20,3 +20,11 @@ focus fengshui verwandelt daher Ihren Garten nicht in eine Gesteinssammlung, son
 Und wer will, bekommt auch Steine :o)
 
 Sie erhalten von mir keine konkrete Pflanzempfehlung für die idividuellen Boden- und Lichtverhältnisse, denn meine botanischen Kenntnisse sind noch rudimentär. Gerne arbeite ich aber mit dem Gärtnerbetrieb Ihrer Wahl zusammen oder empfehle Ihnen Partnerbetriebe aus meinem Netzwerk.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Liebermann](/images/liebermann.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

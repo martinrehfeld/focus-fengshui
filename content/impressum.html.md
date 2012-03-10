@@ -37,3 +37,11 @@ Copyright 2011 Sanna Rehfeld, alle Rechte vorbehalten
 Die Dokumente, Bilder, Texte und Inhalte auf dieser Website einschliesslich ihrer Teile sind urheberrechtlich geschützt. Sie dürfen nur zum privaten, wissenschaftlichen und nichtgewerblichen Gebrauch zum Zweck der Information kopiert und ausgedruckt werden. Der Verfasser behält sich das Recht vor, diese Erlaubnis jederzeit zu widerrufen. Ohne vorherige schriftliche Genehmigung des Verfassers dürfen die Dokumente dieser Website nicht vervielfältigt, archiviert, auf einem anderen Server gespeichert, in Newsgruppen einbezogen, in Online-Diensten benutzt oder auf einer CD-ROM bzw. anderen Datenträgern gespeichert werden. Eine kommerzielle Verwendung der Inhalte dieser Website sowie die Anzeige der Dokumente innerhalb von Frames durch andere Internetanbieter sind ausdrücklich untersagt.
 
 Berlin 2011
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Tulpen](/images/tulpen.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

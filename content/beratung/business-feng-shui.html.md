@@ -17,3 +17,11 @@ Wer für diese Herausforderungen Erkenntnisse aus dem Feng Shui hinzuzieht, betr
 - Wie gestalte ich stimmungsvolle Wartezonen und erholsame Pausenräume?
 
 Je nach Anforderung kann eine Feng Shui-Beratung praktisch orientierte Lösungen bieten ("Wir möchten einen Springbrunnen zur Lufterfrischung aufstellen -- wo soll er hin?") oder auch längerfristige Prozesse im Rahmen der Organisationsentwicklung anstoßen.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Espresso](/images/espresso.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

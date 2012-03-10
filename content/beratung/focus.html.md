@@ -14,3 +14,11 @@ Die traurige Nachricht für Messies: Die beste Möglichkeit, sich um seine Ziele
 
 1. Ich behalte, was ich brauche und was ich wirklich mag.
 2. Alles hat seinen Platz.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Rot-Grün-Kontrast](/images/rotgruenkontrast.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

@@ -9,3 +9,11 @@ Feng Shui bedeutet nicht, auf moderne Architektur und Innenarchitektur zu verzic
 Egal ob High-Budget, Low-Budget oder No-Budget: Ebenso wie der individuelle Geschmack wird auch der Geldbeutel berücksichtigt. Viele Verbesserungen lassen sich bereits mit kleinem finanziellen Aufwand erzielen.
 
 Auf Wunsch erhalten Sie zeitlich gestaffelte Tipps zur langfristigen Entwicklung Ihrer Räume. Das Ziel ist klar benannt, Prioritäten werden gesetzt, und Sie können die Maßnahmen Stück für Stück weiterverfolgen.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Bodenfliesen](/images/bodenfliesen.jpg)
+{::nomarkdown}
+<% end %>
+{:/}
