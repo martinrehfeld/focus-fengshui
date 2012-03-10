@@ -17,7 +17,7 @@ Feng heisst Wasser und Shui Wind. Während das Wasser Qi sammelt, bewegt der Win
 ## Yin und Yang
 
 {::nomarkdown}
-<%= margin_image('yinyang.jpg', :alt => 'Yin und Yang') %>
+<%= margin_image('grafikyinyang.jpg', :alt => 'Yin und Yang') %>
 {:/}
 
 Yin und Yang steht für das Gegensätzliche, das einander bedingt. Es sind die zwei Seiten eines Berges: sonnig, warm, hell, trocken die eine -- schattig, kühl, dunkel, feucht die andere. Das eine exisiert nicht ohne das andere und erst im Vergleich miteinander kann es beschrieben werden.

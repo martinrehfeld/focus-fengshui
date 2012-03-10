@@ -2,11 +2,11 @@ def margin_image(image_path, options={})
   <<-HTML
     <div class="margin-image-wrapper">
       <div class="margin-image">
-        <div class="polaroid-image">
+        #{options[:polaroid] && "<div class=\"polaroid-image\">"}
           <p>
             #{image_tag image_path, options}
           </p>
-        </div>
+        #{options[:polaroid] && "</div>"}
       </div>
     </div>
     <div class="clearfix"></div>
