@@ -28,10 +28,6 @@ Zwingenberger Weg 10\\
 <% content_for :image do %>
 {:/}
 ![To Run Business](/images/torunbusiness.jpg)
-
-<sanna.rehfeld@focus-fengshui.de>\\
-Tel 0172 / 680 44 48
-{:class="handwriting caption"}
 {::nomarkdown}
 <% end %>
 {:/}
