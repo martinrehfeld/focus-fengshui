@@ -73,6 +73,15 @@
 
     .sidebar {
       color: $sidebar-text-color;
+
+      p.caption {
+        margin-top:5px;
+      }
+
+      p.contact {
+        margin-left: 12px;
+      }
+
       a {
         @include hover-link;
         @include link-colors($sidebar-text-color, $link-hover-color);
