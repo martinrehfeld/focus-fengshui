@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="focus-feng-shui-logo.svg"
+   inkscape:export-filename="/Users/martinrehfeld/Desktop/focus-feng-shui-logo.png"
+   inkscape:export-xdpi="97.739998"
+   inkscape:export-ydpi="97.739998">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3856">
+      <stop
+         style="stop-color:#909090;stop-opacity:1;"
+         offset="0"
+         id="stop3858" />
+      <stop
+         style="stop-color:#9f9f9f;stop-opacity:0;"
+         offset="1"
+         id="stop3860" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3848">
+      <stop
+         style="stop-color:#6e0500;stop-opacity:1;"
+         offset="0"
+         id="stop3850" />
+      <stop
+         style="stop-color:#6e0500;stop-opacity:0;"
+         offset="1"
+         id="stop3852" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3856"
+       id="linearGradient3862"
+       x1="10.290956"
+       y1="222.686"
+       x2="10.290956"
+       y2="249.39517"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.59964966,0,419.65898)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0495979"
+     inkscape:cx="526.18109"
+     inkscape:cy="372.04724"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1355"
+     inkscape:window-height="999"
+     inkscape:window-x="55"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <text
+       xml:space="preserve"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6e0500;fill-opacity:1;stroke:none;font-family:Kozuka Gothic Pro;-inkscape-font-specification:Kozuka Gothic Pro Light"
+       x="62.847282"
+       y="493.16846"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="62.847282"
+         y="493.16846"
+         style="letter-spacing:-1.5px">focus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6e0500;fill-opacity:1;stroke:none;font-family:Kozuka Gothic Pro;-inkscape-font-specification:Kozuka Gothic Pro Light"
+       x="324.44006"
+       y="493.16846"
+       id="text2989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="324.44006"
+         y="493.16846"
+         style="letter-spacing:-1.5px">fengshui</tspan></text>
+    <g
+       id="g3815"
+       transform="matrix(0.17314565,0,0,0.17314565,215.59863,338.37167)">
+      <path
+         transform="matrix(1,0,0,-1,0,1224.6374)"
+         d="m 530.20799,458.18484 c 0,75.61578 -61.2987,136.91448 -136.91447,136.91448 -75.61578,0 -136.91448,-61.2987 -136.91448,-136.91448 0,-75.61577 61.2987,-136.91447 136.91448,-136.91447 75.61577,0 136.91447,61.2987 136.91447,136.91447 z"
+         sodipodi:ry="136.91447"
+         sodipodi:rx="136.91447"
+         sodipodi:cy="458.18484"
+         sodipodi:cx="393.29352"
+         id="path3761"
+         style="opacity:0.17000002;fill:#6e0500;fill-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.0439561,0,0,1.0439561,-22.192194,280.42055)"
+         d="m 459.06617,465.5675 c 0,33.73057 -27.34403,61.0746 -61.07459,61.0746 -33.73057,0 -61.0746,-27.34403 -61.0746,-61.0746 0,-33.73056 27.34403,-61.07459 61.0746,-61.07459 33.73056,0 61.07459,27.34403 61.07459,61.07459 z"
+         sodipodi:ry="61.074593"
+         sodipodi:rx="61.074593"
+         sodipodi:cy="465.5675"
+         sodipodi:cx="397.99158"
+         id="path3763"
+         style="fill:#ffffff;fill-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.1777778,0,0,1.1777778,-480.1701,248.15517)"
+         d="m 771.82178,440.06381 c 0,16.67995 -13.52177,30.20172 -30.20172,30.20172 -16.67995,0 -30.20173,-13.52177 -30.20173,-30.20172 0,-16.67995 13.52178,-30.20172 30.20173,-30.20172 16.67995,0 30.20172,13.52177 30.20172,30.20172 z"
+         sodipodi:ry="30.201721"
+         sodipodi:rx="30.201721"
+         sodipodi:cy="440.06381"
+         sodipodi:cx="741.62006"
+         id="path3813"
+         style="fill:#6e0500;fill-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6e0500;fill-opacity:1;stroke:none;font-family:Sans"
+       x="563.51117"
+       y="524.15417"
+       id="text3839"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3841"
+         x="563.51117"
+         y="524.15417"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6e0500;fill-opacity:1;font-family:Kozuka Gothic Pro;-inkscape-font-specification:Kozuka Gothic Pro">der Raum für Ihre Ziele</tspan></text>
+    <path
+       style="fill:url(#linearGradient3862);fill-opacity:1"
+       d="m 1.3422987,553.55029 c 327.5604613,0 699.7412513,0 1049.6776013,0 l 0,13.68345 c -789.07434,-14.73515 -898.30811,-14.86807 -1049.6776013,0 z"
+       id="rect3845"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
