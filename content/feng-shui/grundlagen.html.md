@@ -16,12 +16,20 @@ Feng heisst Wasser und Shui Wind. Während das Wasser Qi sammelt, bewegt der Win
 
 ## Yin und Yang
 
+{::nomarkdown}
+<%= margin_image('yinyang.jpg', :alt => 'Yin und Yang') %>
+{:/}
+
 Yin und Yang steht für das Gegensätzliche, das einander bedingt. Es sind die zwei Seiten eines Berges: sonnig, warm, hell, trocken die eine -- schattig, kühl, dunkel, feucht die andere. Das eine exisiert nicht ohne das andere und erst im Vergleich miteinander kann es beschrieben werden.
 
 Räume leben vom Wechselspiel zwischen yin und yang. Wie im Design dient dieser Kontrast dazu, Spannung zu erzeugen. Yang-Energie in Räumen ist die aktive, schaffende, nach außen gerichtete Energie während yin für Ruhe, Zurückgezogenheit und Regenerieren steht.
 
 
 ## Die 5 Wandlungsphasen
+
+{::nomarkdown}
+<%= margin_image('5elemente.jpg', :alt => '5 Elemente') %>
+{:/}
 
 Nichts auf der Welt ist von Dauer. Panta rhei -- Alles fliesst. Die Chinesen entwickelten dafür das gedankliche Modell der 5 Wandlungsphasen (oder auch 5 Elemente). Dieses kann auf sämtliche Erscheinungen und Prozesse angewendet werden, z.B. um die verschiedenen Stadien des Jahresverlaufs zu beschreiben oder um sich die nötigen Schritte von Unternehmensentscheidungen vor Augen zu führen.
 

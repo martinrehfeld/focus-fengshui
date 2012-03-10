@@ -28,17 +28,10 @@ Wäre doch schick, wenn sie es in unserem Sinne tun.
 <% content_for :image do %>
 {:/}
 ![Sanna Rehfeld](/images/sannarehfeld.jpg){:title="Fotograf: Jens Wiese"}
-{::nomarkdown}
-<% end %>
-{:/}
 
-{::nomarkdown}
-<% content_for :sidebar do %>
-{:/}
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 0172 / 680 44 48
-{:class="handwriting contact"}
-
+{:class="handwriting caption"}
 {::nomarkdown}
 <% end %>
 {:/}

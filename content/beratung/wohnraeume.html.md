@@ -12,3 +12,11 @@ Die Analyse beschreibt, welches Potential in der Wohnung steckt und wie zwischen
 - Wohnräume, die je nach Wunsch anregend-kommunikativ oder entspannend wirken,
 - Arbeitsräume, in denen voller Energie und Kreativität gearbeitet wird,
 - Kinderzimmer, in denen getobt, gespielt, aufgetankt und konzentriert gearbeitet werden kann.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Sessel](/images/sessel.jpg)
+{::nomarkdown}
+<% end %>
+{:/}

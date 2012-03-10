@@ -28,7 +28,7 @@ Zwingenberger Weg 10\\
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Sanna Rehfeld](/images/sannarehfeld.jpg){:title="Fotograf: Jens Wiese"}
+![To Run Business](/images/torunbusiness.jpg)
 
 <sanna.rehfeld@focus-fengshui.de>\\
 Tel 0172 / 680 44 48

@@ -24,7 +24,7 @@ Sie erhalten von mir keine konkrete Pflanzempfehlung für die idividuellen Boden
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Liebermann](/images/liebermann.jpg)
+![Mauerbeet](/images/mauerbeet.jpg)
 {::nomarkdown}
 <% end %>
 {:/}

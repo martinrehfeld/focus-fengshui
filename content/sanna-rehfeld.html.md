@@ -39,3 +39,11 @@ Selbständigkeit als Feng Shui-Beraterin und Stadt- und Regionalplanerin
 - im Betonghetto, im Stadt-Kiez, im Vorort, auf dem Land
 - in der Wohnung, im Haus, im Zirkuswagen
 - mit den speziellen Faktoren Kleinkinder und kabelliebende Kaninchen
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Hasenohr](/images/minaohr.jpg)
+{::nomarkdown}
+<% end %>
+{:/}
