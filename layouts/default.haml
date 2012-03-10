@@ -1,5 +1,5 @@
 !!! 5
-%html(lang="de")
+= surround "<!--[if lt IE 9]><html class=\"lte-ie8\" lang=\"de\"><![endif]-->\n<!--[if gt IE 8]><!--><html lang=\"de\"><!--<![endif]-->", '</html>' do
   %head
     %meta(charset="utf-8")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
@@ -15,7 +15,7 @@
 
     %link(rel="stylesheet" href="/stylesheets/site.css" type="text/css")
     /[if lte IE 9]
-      %link(rel="stylesheet" href="css/ie.css" type="text/css" media="screen")
+      %link(rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen")
     %link(rel="stylesheet" href="/stylesheets/mobile.css" type="text/css" media="handheld, only screen and (max-width: 767px)")
 
     %script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js")

@@ -9,3 +9,7 @@ is_hidden: true
 #top {
   height: 768px;
 }
+
+.lte-ie8 .polaroid-image {
+  padding: 0 !important;
+}
