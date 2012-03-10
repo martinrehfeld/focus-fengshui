@@ -12,16 +12,17 @@ keywords:
   - Sanna Rehfeld
 ---
 
-# Beratung und Raumgestaltung<br />Sanna Rehfeld
+# Beratung und Raumgestaltung
 
 - nach traditionellem Feng Shui,
 - auf westliche Bedürfnisse übertragen,
 - individuell auf Sie und Ihre Räume zugeschnitten.
 
-Gestalten Sie Räume voller Energie zum erfolgreichen Arbeiten und harmonischen Wohnen. focus fengshui unterstützt Sie dabei und gibt Ihnen Inspiration und Tipps zur Umsetzung.
 
-Ihre Ziele bilden den Schwerpunkt.\\
-Ob privat oder im Job -- werden Sie sich bewusst, was sie brauchen, und schaffen Sie die Umgebung, die Sie intensiv fördert. Denn Räume beeinflussen uns immer. Wäre doch schick, wenn sie es in unserem Sinne tun.
+Ob privat oder im Job -- freuen Sie sich auf eine Umgebung, die Sie intensiv fördert. focus fengshui gibt Ihnen Inspiration und Tipps zur Umsetzung.
+
+Denn Räume beeinflussen uns immer.\\
+Wäre doch schick, wenn sie es in unserem Sinne tun.
 
 {::nomarkdown}
 <% content_for :image do %>
