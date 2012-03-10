@@ -71,7 +71,9 @@
      inkscape:window-height="999"
      inkscape:window-x="55"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -80,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -150,20 +152,14 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6e0500;fill-opacity:1;stroke:none;font-family:Sans"
-       x="563.51117"
-       y="524.15417"
+       x="632.75513"
+       y="494.05313"
        id="text3839"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3841"
-         x="563.51117"
-         y="524.15417"
+         x="632.75513"
+         y="494.05313"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6e0500;fill-opacity:1;font-family:Kozuka Gothic Pro;-inkscape-font-specification:Kozuka Gothic Pro">der Raum für Ihre Ziele</tspan></text>
-    <path
-       style="fill:url(#linearGradient3862);fill-opacity:1"
-       d="m 1.3422987,553.55029 c 327.5604613,0 699.7412513,0 1049.6776013,0 l 0,13.68345 c -789.07434,-14.73515 -898.30811,-14.86807 -1049.6776013,0 z"
-       id="rect3845"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

@@ -15,7 +15,7 @@
   },
 
   doLayout: function() {
-    var fullLogoHeight = 167;
+    var fullLogoHeight = 133;
     var fullLogoWidth = 1140;
     var logoAspectRatio = fullLogoHeight / fullLogoWidth;
     var acutalLogoWidth = $('header').innerWidth() - 34;
