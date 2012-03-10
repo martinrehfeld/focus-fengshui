@@ -14,7 +14,25 @@ keywords:
 
 # Radio Fritz Special
 
-Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!
+Wollt Ihr auch den rund-um-Feng-Shui-Check wie Sonja?
+Oder speziell einen Raum pimpen?
+Dann nutzt das Fritz-focus-fengshui-Angebot!
+
+Ihr bekommt:
+1,5 Stunden Beratung vor Ort in Eurer Wohnung (oder Büro oder was immer Ihr braucht) in Berlin*
+umsetzbare Tipps für jeden Stil und jeden Geldbeutel
+kurze schriftliche Dokumentation - damit Ihr Euch nicht alles merken müsst und danach ohne Ausreden loslegen könnt
+
+Für meine Vorarbeit schickt Ihr mir an sanna.rehfeld@focus-fengshui.de:
+die Adresse,
+den Grundriss (schick vom Verwalter oder grobe Skizze)
+Eure Geburtsdaten und
+wo der Schuh drückt oder was verändert werden soll
+
+Preis: 119,- € (inkl. MwSt.)
+
+*Cottbusser, Frankfurter und co. melden sich einfach und wir finden eine Lösung.
+
 
 {::nomarkdown}
 <% content_for :image do %>
