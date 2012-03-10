@@ -30,4 +30,16 @@ is_hidden: true
   #main .menu nav {
     padding-left: 31px;
   }
+
+  .content {
+    .margin-image-wrapper {
+      width: 100% !important;
+
+      .margin-image {
+        position: relative !important;
+        width: inherit !important;
+        left: inherit !important;
+      }
+    }
+  }
 }

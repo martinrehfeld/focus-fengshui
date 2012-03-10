@@ -67,8 +67,20 @@
       }
     }
 
-    .content a {
-      @include hover-link;
+    .content {
+      a {
+        @include hover-link;
+      }
+
+      .margin-image-wrapper {
+        position: relative;
+
+        .margin-image {
+          position: absolute;
+          width: 68%;
+          left: 120%;
+        }
+      }
     }
 
     .sidebar {
@@ -108,6 +120,7 @@
         margin-right: 10px;
       }
     }
+
     nav {
       float: left;
       margin-left: 0.4em;
