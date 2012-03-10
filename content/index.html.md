@@ -12,7 +12,7 @@ keywords:
   - Sanna Rehfeld
 ---
 
-# Beratung und Raumgestaltung Sanna Rehfeld
+# Beratung und Raumgestaltung<br />Sanna Rehfeld
 
 - nach traditionellem Feng Shui,
 - auf westliche Bedürfnisse übertragen,
