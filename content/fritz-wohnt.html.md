@@ -19,15 +19,19 @@ Oder speziell einen Raum pimpen?
 Dann nutzt das Fritz-focus-fengshui-Angebot!
 
 Ihr bekommt:
-- 1,5 Stunden Beratung vor Ort in Eurer Wohnung (oder Büro oder was immer Ihr braucht) in Berlin*
-- umsetzbare Tipps für jeden Stil und jeden Geldbeutel
-- kurze schriftliche Dokumentation - damit Ihr Euch nicht alles merken müsst und danach ohne Ausreden loslegen könnt
+{:class="no-paragraph"}
 
-Für meine Vorarbeit schickt Ihr mir an sanna.rehfeld@focus-fengshui.de:
+- 1,5 Stunden Beratung vor Ort in Eurer Wohnung (oder Büro oder was immer Ihr braucht) in Berlin*,
+- umsetzbare Tipps für jeden Stil und jeden Geldbeutel,
+- kurze schriftliche Dokumentation - damit Ihr Euch nicht alles merken müsst und danach ohne Ausreden loslegen könnt.
+
+Für meine Vorarbeit schickt Ihr mir an <sanna.rehfeld@focus-fengshui.de>:
+{:class="no-paragraph"}
+
 - die Adresse,
-- den Grundriss (schick vom Verwalter oder grobe Skizze)
+- den Grundriss (schick vom Verwalter oder grobe Skizze),
 - Eure Geburtsdaten und
-- wo der Schuh drückt oder was verändert werden soll
+- wo der Schuh drückt oder was verändert werden soll.
 
 Preis: 119,- € (inkl. MwSt.)
 
