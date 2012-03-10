@@ -26,10 +26,6 @@ is_hidden: true
 
 @media only screen and (max-width: 1023px) {
   @include eleven40-smallscreen-reset;
-  header {
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
 
   #main .menu nav {
     padding-left: 31px;
