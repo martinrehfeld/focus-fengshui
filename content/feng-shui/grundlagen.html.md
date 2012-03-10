@@ -28,3 +28,11 @@ Nichts auf der Welt ist von Dauer. Panta rhei -- Alles fliesst. Die Chinesen ent
 Die Phasen weisen unterschiedliche Qualitäten und Ausdrucksformen auf und werden den Elementen Holz -- Feuer -- Erde -- Metall -- Wasser zugeordnet. In dieses System lassen sich sämtliche Phänomene einordnen -- seien es Formen, Farben, Materialen oder Organe, Gefühle, Tageszeiten und Himmelsrichtungen.
 
 Sie unterstützen, schwächen, beschäftigen und kontrollieren einander. Im Feng Shui geht es darum, diese verschiedenen Qualitäten harmonisch auszugleichen. Darüber hinaus wird je nach Bedürfnis der Bewohner oder Anforderung an den Raum eine leichte Verschiebung zugunsten weniger Elemente erzeugt.
+
+{::nomarkdown}
+<% content_for :image do %>
+{:/}
+![Sonnenaufgang](/images/sonnenaufgang.jpg)
+{::nomarkdown}
+<% end %>
+{:/}
