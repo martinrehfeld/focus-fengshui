@@ -25,8 +25,13 @@ header, #main {
 }
 
 .error-page {
+  #main .main-box {
+    width: 97%
+  }
+
   #main .content {
     @include eleven40-twelvecol;
+    padding: 20px;
   }
 }
 
