@@ -41,7 +41,11 @@ Preis: 119,- € (inkl. MwSt.)
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Sanna Rehfeld](/images/sannarehfeld.jpg){:title="Fotograf: Jens Wiese"}
+![Radio](/images/radio.jpg)
+
+Hört rein auf Radio Fritz:\\
+Sanna Rehfeld zu Gast bei Sonja Koppitz
+{:class="handwriting caption"}
 {::nomarkdown}
 <% end %>
 {:/}
