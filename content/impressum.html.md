@@ -13,7 +13,6 @@ keywords:
 Sanna Rehfeld
 
 Tel 0172 / 680 44 48\\
-Fax 030 / 454 821 68\\
 <sanna.rehfeld@focus-fengshui.de>
 
 Zwingenberger Weg 10\\
