@@ -25,7 +25,7 @@ ab 7,- € / qm.
 Stundensatz: 60,- €
 - Anfahrten innerhalb Berlins sind inbegriffen.
 - Preise zzgl. Mehrwertsteuer
-- Ausnahme: der Fritz-Feng-Shui-Check für 119,- € komplett
+- Ausnahme: [der Fritz-Feng-Shui-Check für 119,- € komplett](/fritz-wohnt/)
 
 {::nomarkdown}
 <% content_for :image do %>
