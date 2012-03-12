@@ -17,7 +17,6 @@ Analyse einer 4-Zimmer-Wohnung mit 3-4 Bewohnern\\
 inkl. 3 Entwürfe ausgearbeitet mit konkreten Farb- und Möblierungsvorschlägen\\
 850,- €
 
-
 Büro- und Ladenflächen:\\
 ab 7,- € / qm.
 
@@ -31,6 +30,14 @@ Stundensatz: 60,- €
 <% content_for :image do %>
 {:/}
 ![Kasse](/images/kasse.jpg)
+{::nomarkdown}
+<% end %>
+{:/}
+
+{::nomarkdown}
+<% content_for :sidebar do %>
+{:/}
+<a href="/fritz-wohnt/"><img src="/images/fritz-wohnt-aktion.png" alt="Fritz wohnt Aktion"></a>
 {::nomarkdown}
 <% end %>
 {:/}
