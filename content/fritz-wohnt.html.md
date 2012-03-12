@@ -15,7 +15,7 @@ keywords:
 # Fritz wohnt
 
 Wollt Ihr auch den rund-um-Feng-Shui-Check wie Sonja?
-Oder speziell einen Raum pimpen?
+Oder speziell einen Raum aufpeppen zum Wohlfühlen, Herrlichschlafen, Knackigarbeiten?
 Dann nutzt das Fritz-focus-fengshui-Angebot!
 
 Ihr bekommt:
@@ -44,7 +44,7 @@ Preis: 119,- € (inkl. MwSt.)
 ![Radio](/images/radio.jpg)
 
 Hört rein auf Radio Fritz:\\
-Sanna Rehfeld zu Gast bei Sonja Koppitz
+Sanna Rehfeld besucht Moderatorin Sonja Koppitz
 {:class="handwriting caption"}
 {::nomarkdown}
 <% end %>
