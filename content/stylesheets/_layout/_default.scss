@@ -98,6 +98,10 @@
         @include hover-link;
         @include link-colors($sidebar-text-color, $link-hover-color);
       }
+
+      embed {
+        margin-top: 30px;
+      }
     }
 
     .toplink {
