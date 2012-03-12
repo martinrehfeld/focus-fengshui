@@ -41,10 +41,12 @@ Preis: 119,- € (inkl. MwSt.)
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Radio](/images/radio.jpg)
+<a href="http://www.fritz.de/neues_wort/aktuell/aktionen_und_events/d/wohnen/fritzwohnt.html"><img src="/images/radio.jpg" alt="Radio"></a>
 
-Hört rein auf Radio Fritz:\\
+<a href="http://www.fritz.de/neues_wort/aktuell/aktionen_und_events/d/wohnen/fritzwohnt.html">
+Hört rein auf Radio Fritz:<br>
 Sanna Rehfeld besucht Moderatorin Sonja Koppitz
+Koppitz</a>
 {:class="handwriting caption"}
 {::nomarkdown}
 <% end %>
