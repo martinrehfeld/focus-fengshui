@@ -47,6 +47,7 @@ height="159" style="undefined" id="mpl" name="mpl" quality="high"
 allowfullscreen="true" allowscriptaccess="always" wmode="opaque"
 flashvars="skin=http://www.fritz.de/fri/js/mediaplayer/skins/fritzSkin/fritzSkin.xml&amp;streamer=rtmp://ondemand.rbb-online.de/ondemand&amp;file=/frz/vj/2012/03/feng_shui.mp4&amp;image=http://www.fritz.de/etc/medialib/rbb/fri/bilder/beitraege/media/fritz_tv/vorschau_sonja_feng.file.407.229.jpg">
 
+![Sanna Rehfeld zu Hause bei der Moderatorin Sonja Koppitz für Radio Fritz](/images/bildunterschrift.png)
 {::nomarkdown}
 <% end %>
 {:/}
