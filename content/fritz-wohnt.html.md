@@ -37,16 +37,10 @@ Preis: 119,- € (inkl. MwSt.)
 
 *Cottbusser, Frankfurter und co. melden sich einfach und wir finden eine Lösung.
 
-
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-<a href="http://www.fritz.de/neues_wort/aktuell/aktionen_und_events/d/wohnen/fritzwohnt.html"><img src="/images/radio.jpg" alt="Radio"></a>
-
-<a href="http://www.fritz.de/neues_wort/aktuell/aktionen_und_events/d/wohnen/fritzwohnt.html">
-Hört rein auf Radio Fritz:<br>
-Sanna Rehfeld besucht Moderatorin Sonja Koppitz</a>
-{:class="handwriting caption"}
+![Radio](/images/radio.jpg)
 {::nomarkdown}
 <% end %>
 {:/}
@@ -54,11 +48,24 @@ Sanna Rehfeld besucht Moderatorin Sonja Koppitz</a>
 {::nomarkdown}
 <% content_for :sidebar do %>
 {:/}
+
+Hört rein auf Radio Fritz:\\
+Sanna Rehfeld besucht Moderatorin Sonja Koppitz
+{:style="max-width:230px;" class="dark"}
+
+<object height="81" width="230"> <param name="movie"
+value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F40290328&amp;show_comments=false&amp;auto_play=false&amp;color=040305"></param>
+<param name="allowscriptaccess" value="always"></param> <embed
+allowscriptaccess="always" height="81"
+src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F40290328&amp;show_comments=false&amp;auto_play=false&amp;color=040305"
+type="application/x-shockwave-flash" width="230"></embed> </object>
+
 <embed type="application/x-shockwave-flash"
 src="http://www.fritz.de/fri/js/mediaplayer/player.swf" width="230"
 height="159" style="undefined" id="mpl" name="mpl" quality="high"
 allowfullscreen="true" allowscriptaccess="always" wmode="opaque"
 flashvars="skin=http://www.fritz.de/fri/js/mediaplayer/skins/fritzSkin/fritzSkin.xml&amp;streamer=rtmp://ondemand.rbb-online.de/ondemand&amp;file=/frz/vj/2012/03/feng_shui.mp4&amp;image=http://www.fritz.de/etc/medialib/rbb/fri/bilder/beitraege/media/fritz_tv/vorschau_sonja_feng.file.407.229.jpg">
+
 
 {::nomarkdown}
 <% end %>

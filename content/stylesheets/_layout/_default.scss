@@ -86,6 +86,10 @@
     .sidebar {
       color: $sidebar-text-color;
 
+      p.dark {
+        color: $text-color;
+      }
+
       p.caption {
         margin-top:5px;
       }
