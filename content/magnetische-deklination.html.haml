@@ -1,0 +1,154 @@
+---
+title: Historische Werte der magnetischen Deklination
+layout: plain
+keywords:
+  - Historische Werte
+  - Erdmagnetfeld
+  - Deklination
+  - GUFM
+---
+
+%h1 Abfrage der historischen magnetischen Deklination
+
+%form(id="query")
+  %label(for="location") Zum Ort
+  %input(id="location" name="location" type="text")
+  %input(type="submit" value="Springen")
+
+#map_canvas(style="width:100%;height:300px")
+
+%p.width-fix
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+- content_for :sidebar do
+  %h2 Daten
+
+  %p
+    Deklination im
+    %label(for="year") Jahr
+    %select(id="year" name="year")
+      - 1990.downto(1590) do |year|
+        %option{:value => year} #{year}
+    %span#declination
+
+  %p#address
+  %p
+    Geo-Koordinaten:
+    %span#info
+
+:javascript
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCZ8HIqtIDis85V3B3aofwDVr1j0c-mjTQ&sensor=false&callback=initialize";
+    document.body.appendChild(script);
+  })();
+
+  function initialize() {
+    var initialPos = new google.maps.LatLng(52.522, 13.405); // Berlin
+    var map = new google.maps.Map(document.getElementById("map_canvas"), {
+      center: initialPos,
+      zoom: 12,
+      panControl: true,
+      scaleControl: true,
+      zoomControl: true,
+      streetViewControl: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    var geocoder = new google.maps.Geocoder();
+    var marker = new google.maps.Marker({
+      position: initialPos,
+      title: 'Markierung',
+      map: map,
+      draggable: true
+    });
+
+    // Update current position info.
+    updateMarkerPosition(initialPos);
+    geocodePosition(initialPos);
+    gufmQuery(initialPos, document.getElementById("year").value);
+
+    // Event handlers
+    google.maps.event.addListener(map, 'click', function(mouseEvent) {
+      var pos = mouseEvent.latLng;
+      marker.setPosition(pos);
+      updateMarkerPosition(pos);
+      geocodePosition(pos);
+      gufmQuery(pos, document.getElementById("year").value);
+    });
+
+    google.maps.event.addListener(marker, 'dragstart', function() {
+      updateMarkerAddress('Warte auf Markierung...');
+    });
+
+    google.maps.event.addListener(marker, 'drag', function() {
+      updateMarkerPosition(marker.getPosition());
+    });
+
+    google.maps.event.addListener(marker, 'dragend', function() {
+      var pos = marker.getPosition();
+      gufmQuery(pos, document.getElementById("year").value);
+      geocodePosition(pos);
+    });
+
+    $('#query').submit(function(e) {
+      e.preventDefault();
+      geocodeAddress(function (pos) {
+        gufmQuery(pos, document.getElementById("year").value);
+      });
+    });
+
+    $('#year').change(function () {
+      gufmQuery(marker.getPosition(), document.getElementById("year").value);
+    });
+
+    // Helper functions
+    function geocodeAddress(cb) {
+      var location = document.getElementById("location").value;
+      geocoder.geocode({'address': location}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          map.setCenter(results[0].geometry.location);
+          marker.setPosition(results[0].geometry.location);
+          geocodePosition(results[0].geometry.location);
+          cb(results[0].geometry.location);
+        } else {
+          alert("Adresse konnte nicht gefunden werden, Google Maps meldet: " + status);
+        }
+      });
+    }
+
+    function geocodePosition(pos) {
+      geocoder.geocode({
+        latLng: pos
+      }, function(responses) {
+        if (responses && responses.length > 0) {
+          updateMarkerAddress(responses[0].formatted_address);
+        } else {
+          updateMarkerAddress('Keine bekannte Adresse in der Nähe der Markierung.');
+        }
+      });
+    }
+
+    function updateMarkerPosition(pos) {
+      document.getElementById('info').innerHTML = [
+        pos.lat(),
+        pos.lng()
+      ].join(', ');
+    }
+
+    function updateMarkerAddress(str) {
+      document.getElementById('address').innerHTML = str;
+    }
+
+    function gufmQuery(pos, year) {
+      var source = 'http://gufm.herokuapp.com/?lat=' + pos.lat() +
+                   '&lng=' + pos.lng() +
+                   '&year=' + year +
+                   '&callback=?';
+
+      $('#declination').html('');
+      $.getJSON(source, function(result) {
+        $('#declination').html(result['D'] + '°');
+      });
+    }
+  }
