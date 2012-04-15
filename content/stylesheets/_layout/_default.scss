@@ -18,6 +18,16 @@
     }
   }
 
+  #query-control {
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  #results-control {
+    padding: 5px;
+    margin-bottom: 35px;
+  }
+
   header {
     .logo-box {
       @extend .drop-shadow;

@@ -11,23 +11,19 @@ keywords:
 
 #query-control
   %form(id="query")
-    %label(for="location") Zum Ort
-    %input(id="location" name="location" type="text")
-    %input(type="submit" value="Springen")
+    %p
+      %input(id="location" name="location" type="text")
+      %input(type="submit" value="Zum Ort springen" title="Als Ort können Sie sowohl eine Anschrift/Ortsbezeichnung als auch Längen-/Breitengrad eingeben.")
+  %p#address
 
 #results-control
   %p
     Deklination im
-    %label(for="year") Jahr
+    %label(for="year") Jahre
     %select(id="year" name="year")
       - 1990.downto(1590) do |year|
         %option{:value => year} #{year}
     %span#declination
-
-  %p#address
-  %p
-    Geo-Koordinaten:
-    %span#info
 
 #map_canvas(style="width:100%;height:350px")
 
@@ -49,7 +45,6 @@ keywords:
   function initialize() {
     var queryForm = $('#query');
     var locationElem = $("#location");
-    var infoElem = $('#info');
     var addressElem = $('#address');
     var declinationElem = $('#declination');
     var yearElem = $('#year');
@@ -79,7 +74,7 @@ keywords:
 
     // position controls
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(queryControl);
-    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(resultsControl);
+    map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(resultsControl);
 
     // Update current position info.
     updateMarkerPosition(initialPos);
@@ -149,7 +144,7 @@ keywords:
     }
 
     function updateMarkerPosition(pos) {
-      infoElem.html([
+      locationElem.val([
         pos.lat().toFixed(4),
         pos.lng().toFixed(4)
       ].join(', '));
@@ -167,7 +162,11 @@ keywords:
 
       declinationElem.html('');
       $.getJSON(source, function(result) {
-        declinationElem.html(result['D'].toFixed(1).replace('.', ',') + '°');
+        var reading = result['D'].toFixed(1).replace('.', ',') + '°';
+        if (reading.match(/^[0-9]/)) {
+          reading = '+' + reading;
+        }
+        declinationElem.html(reading);
       });
     }
   }
