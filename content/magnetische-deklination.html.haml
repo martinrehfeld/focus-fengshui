@@ -1,6 +1,5 @@
 ---
 title: Historische Werte der magnetischen Deklination
-layout: plain
 keywords:
   - Historische Werte
   - Erdmagnetfeld
@@ -10,19 +9,13 @@ keywords:
 
 %h1 Abfrage der historischen magnetischen Deklination
 
-%form(id="query")
-  %label(for="location") Zum Ort
-  %input(id="location" name="location" type="text")
-  %input(type="submit" value="Springen")
+#query-control
+  %form(id="query")
+    %label(for="location") Zum Ort
+    %input(id="location" name="location" type="text")
+    %input(type="submit" value="Springen")
 
-#map_canvas(style="width:100%;height:300px")
-
-%p.width-fix
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-- content_for :sidebar do
-  %h2 Daten
-
+#results-control
   %p
     Deklination im
     %label(for="year") Jahr
@@ -36,6 +29,15 @@ keywords:
     Geo-Koordinaten:
     %span#info
 
+#map_canvas(style="width:100%;height:350px")
+
+%p.width-fix
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+- content_for :sidebar do
+  %p Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 :javascript
   (function () {
     var script = document.createElement("script");
@@ -45,13 +47,25 @@ keywords:
   })();
 
   function initialize() {
+    var queryForm = $('#query');
+    var locationElem = $("#location");
+    var infoElem = $('#info');
+    var addressElem = $('#address');
+    var declinationElem = $('#declination');
+    var yearElem = $('#year');
+    var queryControl = $('#query-control').detach()[0];
+    var resultsControl = $('#results-control').detach()[0];
+
     var initialPos = new google.maps.LatLng(52.522, 13.405); // Berlin
     var map = new google.maps.Map(document.getElementById("map_canvas"), {
       center: initialPos,
       zoom: 12,
-      panControl: true,
+      panControl: false,
       scaleControl: true,
       zoomControl: true,
+      zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.SMALL
+      },
       streetViewControl: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
@@ -63,10 +77,14 @@ keywords:
       draggable: true
     });
 
+    // position controls
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(queryControl);
+    map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(resultsControl);
+
     // Update current position info.
     updateMarkerPosition(initialPos);
     geocodePosition(initialPos);
-    gufmQuery(initialPos, document.getElementById("year").value);
+    gufmQuery(initialPos, yearElem.val());
 
     // Event handlers
     google.maps.event.addListener(map, 'click', function(mouseEvent) {
@@ -74,11 +92,12 @@ keywords:
       marker.setPosition(pos);
       updateMarkerPosition(pos);
       geocodePosition(pos);
-      gufmQuery(pos, document.getElementById("year").value);
+      gufmQuery(pos, yearElem.val());
     });
 
     google.maps.event.addListener(marker, 'dragstart', function() {
       updateMarkerAddress('Warte auf Markierung...');
+      declinationElem.html('');
     });
 
     google.maps.event.addListener(marker, 'drag', function() {
@@ -87,24 +106,24 @@ keywords:
 
     google.maps.event.addListener(marker, 'dragend', function() {
       var pos = marker.getPosition();
-      gufmQuery(pos, document.getElementById("year").value);
+      gufmQuery(pos, yearElem.val());
       geocodePosition(pos);
     });
 
-    $('#query').submit(function(e) {
+    queryForm.submit(function(e) {
       e.preventDefault();
       geocodeAddress(function (pos) {
-        gufmQuery(pos, document.getElementById("year").value);
+        gufmQuery(pos, yearElem.val());
       });
     });
 
-    $('#year').change(function () {
-      gufmQuery(marker.getPosition(), document.getElementById("year").value);
+    yearElem.change(function () {
+      gufmQuery(marker.getPosition(), yearElem.val());
     });
 
     // Helper functions
     function geocodeAddress(cb) {
-      var location = document.getElementById("location").value;
+      var location = locationElem.val();
       geocoder.geocode({'address': location}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
           map.setCenter(results[0].geometry.location);
@@ -130,14 +149,14 @@ keywords:
     }
 
     function updateMarkerPosition(pos) {
-      document.getElementById('info').innerHTML = [
-        pos.lat(),
-        pos.lng()
-      ].join(', ');
+      infoElem.html([
+        pos.lat().toFixed(4),
+        pos.lng().toFixed(4)
+      ].join(', '));
     }
 
     function updateMarkerAddress(str) {
-      document.getElementById('address').innerHTML = str;
+      addressElem.html(str);
     }
 
     function gufmQuery(pos, year) {
@@ -146,9 +165,9 @@ keywords:
                    '&year=' + year +
                    '&callback=?';
 
-      $('#declination').html('');
+      declinationElem.html('');
       $.getJSON(source, function(result) {
-        $('#declination').html(result['D'] + '°');
+        declinationElem.html(result['D'].toFixed(1).replace('.', ',') + '°');
       });
     }
   }

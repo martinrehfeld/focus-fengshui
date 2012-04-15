@@ -4,6 +4,20 @@
     background-color: $margin-background-color;
   }
 
+  #map_canvas img {
+    max-width: none;
+  }
+
+  #query-control, #results-control {
+    background-color: white;
+    @include opacity(0.8);
+
+    label, p, input {
+      color: black;
+      margin: 0;
+    }
+  }
+
   header {
     .logo-box {
       @extend .drop-shadow;
@@ -105,7 +119,7 @@
 
       embed {
         margin-top: 20px;
-	margin-bottom: 0;
+        margin-bottom: 0;
       }
     }
 
