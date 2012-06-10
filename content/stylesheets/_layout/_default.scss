@@ -28,6 +28,15 @@
     margin-bottom: 35px;
   }
 
+  .zirkuswagen.gallery {
+    a {
+      float:left;
+      &.portrait {
+        width: 49.5%;
+      }
+    }
+  }
+
   header {
     .logo-box {
       @extend .drop-shadow;

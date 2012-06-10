@@ -1,0 +1,39 @@
+- content_for(:head) do
+  %link(rel="stylesheet" href="/stylesheets/colorbox.css" type="text/css" media="screen")
+  %script(type="text/javascript" src="/javascripts/jquery.colorbox-min.js")
+
+.zirkuswagen.gallery
+  %a(href="/images/zirkuswagen/ansicht-von-vorn.jpg" title="hello")
+    %img(alt="Ansicht von vorn" src="/images/zirkuswagen/ansicht-von-vorn.jpg")
+  %a(href="/images/zirkuswagen/ansicht-von-hinten.jpg")
+    %img(alt="Ansicht von hinten" src="/images/zirkuswagen/ansicht-von-hinten.jpg")
+  %a(class="portrait" href="/images/zirkuswagen/innenraum.jpg")
+    %img(alt="Innenraum" src="/images/zirkuswagen/innenraum.jpg")
+  %a(class="portrait" href="/images/zirkuswagen/holzfenster.jpg")
+    %img(alt="Holz Isolierglasfenster" src="/images/zirkuswagen/holzfenster.jpg")
+  %a(class="portrait" href="/images/zirkuswagen/gasheizung.jpg")
+    %img(alt="Gasheizung" src="/images/zirkuswagen/gasheizung.jpg")
+  %a(class="portrait" href="/images/zirkuswagen/elektroinstallation.jpg")
+    %img(alt="Elektroinstallation" src="/images/zirkuswagen/elektroinstallation.jpg")
+  %a(href="/images/zirkuswagen/terassenvorbau.jpg")
+    %img(alt="Terassenvorbau" src="/images/zirkuswagen/terassenvorbau.jpg")
+  %a(href="/images/zirkuswagen/stauraum.jpg")
+    %img(alt="Stauraum" src="/images/zirkuswagen/stauraum.jpg")
+  %a(href="/images/zirkuswagen/anhaengerkupplung.jpg")
+    %img(alt="Anhängerkupplung" src="/images/zirkuswagen/anhaengerkupplung.jpg")
+
+:javascript
+  $(function() {
+    $('.zirkuswagen.gallery a').colorbox({
+      rel:'zirkuswagen',
+      scalePhotos: true,
+      scrolling: false,
+      maxWidth: '90%',
+      maxHeight: '90%',
+      current: 'Bild {current} von {total}',
+      previous: 'vorheriges',
+      next: 'nächstes',
+      close: 'Schließen',
+      fixed: true
+    });
+  });
