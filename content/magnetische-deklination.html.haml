@@ -4,16 +4,19 @@ keywords:
   - Historische Werte
   - Erdmagnetfeld
   - Deklination
-  - GUFM
+  - GUFM1
 ---
 
 %h1 Magnetische Deklination 1590-1990
 
+%p
+  Dieses Modell zur Berechnung historischer Deklinationswerte entwickelten die drei Wissenschaftler Jackson, Jonkers und Walker aus Leeds und Amsterdam. Allein für die Ergebnisse vor 1900 werteten sie 80.000 Messwerte aus alten Schiffslogbüchern aus - z.B. der East-India-Trading-Company.
+
 #query-control
   %form(id="query")
     %p
-      %input(id="location" name="location" type="text")
-      %input(type="submit" value="Zum Ort springen" title="Als Ort können Sie sowohl eine Anschrift/Ortsbezeichnung als auch Längen-/Breitengrad eingeben.")
+      %input(id="location" name="location" type="text" title="Bitte geben Sie eine Adresse oder die geographischen Koordinaten ein.")
+      %input(type="submit" value="Zum Ort springen")
   %p#address
 
 #results-control
@@ -31,8 +34,17 @@ keywords:
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 - content_for :sidebar do
-  %p Quelle:<br />"Four centuries of geomagnetic secular variation from historical records" von Andrew Jackson, Art R. T. Jonkers und Matthew R. Walker, 2000
+  %h2 Quelle
+  %p
+    "Four centuries of geomagnetic secular variation from historical records" von Andrew Jackson, Art R. T. Jonkers und Matthew R. Walker, Phil. Trans. Roy. Soc. A (2000) Vol. 358, pp957-990
+    %a(href="/downloads/2000-Jackson-957-90.pdf") [download als pdf]
 
+  %h2 Hinweise zur Nutzung
+  %p
+    Der Ort wird bestimmt, indem im Suchfeld die Adresse oder die Längen- und Breitengrade eingegeben werden. Im Kartenfeld kann die Ortsmarkierung passend verschoben werden.
+
+  %p
+    Die Längen- und Breitengrade können dezimal oder in Grad, Minuten etc. eingegeben werden ein (z.B. 2°30' oder 2.5). Die beiden Koordinaten werden mit einem Komma getrennt.
 
 :javascript
   (function () {
