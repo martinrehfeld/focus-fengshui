@@ -24,7 +24,6 @@ Ob privat oder im Job -- freuen Sie sich auf eine Umgebung, die Sie intensiv fö
 Denn Räume beeinflussen uns immer.\\
 Wäre doch schick, wenn sie es in unserem Sinne tun.
 
-<a href="/fritz-wohnt/"><img src="/images/fritz-wohnt-special.png" alt="Fritz wohnt Special"></a>
 
 {::nomarkdown}
 <% content_for :image do %>
