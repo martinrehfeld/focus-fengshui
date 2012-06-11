@@ -10,15 +10,12 @@ keywords:
 
 # Kleiner Holz-Zirkuswagen für Liebhaber
 
-2008 aufwändig modernisiert/umgebaut (Neupreis: 21.500 €). Jetzt für VB 15.000
-€ abzugeben (inkl. Rechnung mit ausgewiesener Mehrwertsteuer).
-
-Perfekt nutzbar als origineller Pavillon, Badehaus, Gästezimmer, Spielwiese für
-Kinder, Büro und und und ...
+Perfekt als origineller Pavillon, Gästezimmer, Spielwiese für
+Kinder und und und. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modernisiert und umgebaut und in den letzten Jahren als Büro genutzt.
 
 ## Ausstattung
 
-* Holzfenster und Türen, Isolier-Doppelverglasung, Fenster kö̈nnen gekippt werden
+* Holzfenster und -türen, Isolier-Doppelverglasung, Fenster kö̈nnen gekippt werden
 * Originalgetreue Außenverkleidung in typischem "Sachsenstab" Profil,
   Messingschlitzschrauben auf Rosetten gesetzt
 * Super Raumklima dank ö̈kologischer Dämmung aus Hanf inkl. Windbremse
@@ -30,6 +27,12 @@ Kinder, Büro und und und ...
 * Abnehmbarer und zerlegbarer Holz Terassenvorbau (kann zum Transport
   grö̈ßtenteils im Kasten unterhalb des Wagens verstaut werden)
 
+## Preis
+
+Neupreis: 21.500 €\\
+zu verkaufen für VB 12.600 € netto, zzgl. 19% Mwst.\\
+Gesamtpreis 14.994 €
+
 {::nomarkdown}
 <%= render 'zirkuswagen-images' %>
 {:/}
@@ -39,9 +42,6 @@ Kinder, Büro und und und ...
 {:/}
 ![Zirkuswagen](/images/zirkuswagen.jpg)
 
-VB: 15.000 € (Mwst. ausweisbar)
-{:class="caption"}
-
 {::nomarkdown}
 <% end %>
 
@@ -50,10 +50,11 @@ VB: 15.000 € (Mwst. ausweisbar)
 
 ## Anbieter
 Martin Rehfeld, Berlin\\
-Besichtigung: Nähe Beelitz bei Berlin
-
 <martin.rehfeld@glnetworks.de>\\
 Telefon (030) 343 585 05
+
+## Standort des Wagens
+Nähe Beelitz bei Berlin
 
 {::nomarkdown}
 <% end %>

@@ -14,8 +14,7 @@ keywords:
 
 ## [06/2012 — Schöne Orte selbstgemacht: Zirkuswagen zu verkaufen](/zirkuswagen/)
 
-Schöne Orte selbstgemacht: Zirkuswagen zu verkaufen\\
-klein und schnuckelig, 4m lang, aus Holz, schönes Gästezimmer im Garten, Büro oder Kinderhaus
+klein und schnuckelig, 4m lang, aus Holz, prima geeignet als individuelles Gästezimmer im Garten, Büro oder Kinderspielhaus
 [(mehr...)](/zirkuswagen/)
 
 
@@ -25,9 +24,7 @@ klein und schnuckelig, 4m lang, aus Holz, schönes Gästezimmer im Garten, Büro
 
 ## [05/2012 — Historischer Deklinationsrechner](/magnetische-deklination/)
 
-Gimmick für Feng Shui - KollegInnen:
-historischer Deklinationsrechner ab dem Jahr 1590.
-Endlich den magnetischen Norden berechnen für Gebäude aus dem Biedermeier :o)
+Gimmick für Feng-Shui-KollegInnen: Endlich den magnetischen Norden berechnen für Gebäude, die ab 1590 erbaut wurden.
 [(mehr...)](/magnetische-deklination/)
 
 {::nomarkdown}
@@ -36,5 +33,5 @@ Endlich den magnetischen Norden berechnen für Gebäude aus dem Biedermeier :o)
 
 ## [04/2012 — Sanna Rehfeld auf Radio Fritz](/fritz-wohnt/)
 
-Kurzberatung in der Wohnung von Moderatorin Sonja Koppitz zum Hören und Sehen: Radiobeitrag und Youtube-Film
+Kurzberatung in der Wohnung von Moderatorin Sonja Koppitz zum Hören und Sehen: Radiobeitrag und Youtube-Filmchen\\
 [(mehr...)](/fritz-wohnt/)
