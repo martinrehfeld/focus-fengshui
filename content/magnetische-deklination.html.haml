@@ -10,7 +10,10 @@ keywords:
 %h1 Magnetische Deklination 1590-1990
 
 %p
-  Dieses Modell zur Berechnung historischer Deklinationswerte entwickelten die drei Wissenschaftler Jackson, Jonkers und Walker aus Leeds und Amsterdam. Allein für die Ergebnisse vor 1900 werteten sie 80.000 Messwerte aus alten Schiffslogbüchern aus - z.B. der East-India-Trading-Company.
+  Für Feng Shui Analysen wird der magnetische Norden des Erbauungsjahrs eines Gebäudes gebraucht. Da das Erdmagnetfeld permanent in Bewegung ist, muss die Verschiebung des magnetischen vom geographischen Nordpol ("Deklination") berücksichtigt werden.
+
+%p
+  Für dieses Berechnungsmodell wurden über 80.000 Daten aus historischen Schiffslogbüchern ausgewertet - z.B. der East-India-Trading-Company.
 
 #query-control
   %form(id="query")
@@ -30,21 +33,40 @@ keywords:
 
 #map_canvas(style="width:100%;height:350px")
 
+%p
+  MEHR ABSTAND
+  Das Ergebnis sind dezimal geschriebene Deklinationswerte. Negative Werte bedeuten eine Abweichung der Magnetnadel nach Westen, positive nach Osten
+
+%p
+  Der
+  %a(href="http://www-app3.gfz-potsdam.de/Declinationcalc/declinationcalc.html") Deklinationsrechner
+  vom Helmholtz Institut Potsdam (Deutsches GeoForschungsZentrum GFZ) bietet Werte von 1900 bis 2015.
+
+
 %p.width-fix
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 - content_for :sidebar do
-  %h2 Quelle
+  %h2 Quelle:
   %p
     "Four centuries of geomagnetic secular variation from historical records" von Andrew Jackson, Art R. T. Jonkers und Matthew R. Walker, Phil. Trans. Roy. Soc. A (2000) Vol. 358, pp957-990
     %a(href="/downloads/2000-Jackson-957-90.pdf") [download als pdf]
 
-  %h2 Hinweise zur Nutzung
+  %h2 Tipps zur Eingabe:
   %p
     Der Ort wird bestimmt, indem im Suchfeld die Adresse oder die Längen- und Breitengrade eingegeben werden. Im Kartenfeld kann die Ortsmarkierung passend verschoben werden.
 
   %p
     Die Längen- und Breitengrade können dezimal oder in Grad, Minuten etc. eingegeben werden ein (z.B. 2°30' oder 2.5). Die beiden Koordinaten werden mit einem Komma getrennt.
+
+  %h2 Hinter den Kulissen:
+  %p
+    Das zugrunde liegende FORTRAN-Programm wurde von Jeremy Bloxham geschrieben und von
+    %a(href="http://www.glnetworks.de") GL Networks
+    als Webservice bereitgestellt und mit Google Maps verbunden.
+
+
+
 
 :javascript
   (function () {
