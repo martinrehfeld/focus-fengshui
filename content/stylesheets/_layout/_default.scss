@@ -4,10 +4,6 @@
     background-color: $margin-background-color;
   }
 
-  #map_canvas img {
-    max-width: none;
-  }
-
   #query-control, #results-control {
     background-color: white;
     @include opacity(0.8);
@@ -177,3 +173,4 @@
 }
 
 @import "_layout/aktuelles";
+@import "_layout/magnetische-deklination";

@@ -1,0 +1,16 @@
+.magnetische-deklination {
+  #main .sidebar .sidebar-box {
+    > h2 { padding-top: 48px; }
+    padding-left: 0;
+    padding-right: 12.4%;
+  }
+
+  #map_canvas {
+    max-width: none;
+    margin-bottom: 24px;
+  }
+
+  .content a { font-weight: bold; }
+  .sidebar a { font-weight: normal; }
+  a { color: $link-color !important; }
+}
