@@ -5,7 +5,9 @@
   }
 
   #map_canvas {
-    max-width: none;
+    width: 100%;
+    height: 360px;
+    img { max-width: none; }
     margin-bottom: 24px;
   }
 
