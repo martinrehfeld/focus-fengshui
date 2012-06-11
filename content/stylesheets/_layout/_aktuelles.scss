@@ -14,5 +14,11 @@
     a { font-weight: bold; }
   }
 
-  a { font-weight: bold; }
+  .content, .sidebar {
+    a { font-weight: bold; }
+  }
+
+  footer {
+    a { font-weight: normal !important; }
+  }
 }

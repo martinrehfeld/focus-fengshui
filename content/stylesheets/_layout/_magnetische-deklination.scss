@@ -1,5 +1,5 @@
-.magnetische-deklination {
-  #main .sidebar .sidebar-box {
+.magnetische-deklination #main {
+  .sidebar .sidebar-box {
     padding-left: 0;
     padding-right: 12.4%;
   }
@@ -13,5 +13,14 @@
 
   .content a { font-weight: bold; }
   .sidebar a { font-weight: normal; }
-  a { color: $link-color !important; }
+  .content, .sidebar {
+    a { color: $link-color; }
+
+    footer .site-info nav {
+      a {
+        font-weight: normal !important;
+        @include link-colors($footer-text-color, $footer-text-color);
+      }
+    }
+  }
 }
