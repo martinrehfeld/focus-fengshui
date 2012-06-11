@@ -15,23 +15,24 @@ Kinder und und und. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modern
 
 ## Ausstattung
 
-* Holzfenster und -türen, Isolier-Doppelverglasung, Fenster kö̈nnen gekippt werden
+* Holzfenster und -türen, Isolier-Doppelverglasung, Fenster können gekippt werden
 * Originalgetreue Außenverkleidung in typischem "Sachsenstab" Profil,
   Messingschlitzschrauben auf Rosetten gesetzt
-* Super Raumklima dank ö̈kologischer Dämmung aus Hanf inkl. Windbremse
+* Super Raumklima dank ökologischer Dämmung aus Hanf inkl. Windbremse
 * Fußboden aus Eichenparkett
 * Gasheizung von Vaillant, Flaschenanschluss unterhalb des Wagens
 * Elektroinstallation mit Doppelsteckdose in jeder Wagenecke, zentralem
-  Sicherungskasten inkl. Stromzä̈hler, Anschluss sowohl mit Camping-Stecker als
+  Sicherungskasten inkl. Stromzähler, Anschluss sowohl mit Camping-Stecker als
   auch normaler Schutzkontakt-Kupplung
 * Abnehmbarer und zerlegbarer Holz Terassenvorbau (kann zum Transport
-  grö̈ßtenteils im Kasten unterhalb des Wagens verstaut werden)
+  größtenteils im Kasten unterhalb des Wagens verstaut werden)
 
 ## Preis
 
-Neupreis: 21.500 €\\
-zu verkaufen für VB 12.600 € netto, zzgl. 19% Mwst.\\
-Gesamtpreis 14.994 €
+zu verkaufen für **VB 12.600 € netto** zzgl. 19% Mwst. = 14.994 €\\
+Neupreis 2008: 21.500 €
+
+## Bildergalerie
 
 {::nomarkdown}
 <%= render 'zirkuswagen-images' %>
