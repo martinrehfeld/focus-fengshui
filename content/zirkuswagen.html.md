@@ -26,6 +26,7 @@ Kinder und und und. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modern
   auch normaler Schutzkontakt-Kupplung
 * Abnehmbarer und zerlegbarer Holz Terassenvorbau (kann zum Transport
   größtenteils im Kasten unterhalb des Wagens verstaut werden)
+* Maße: ca. 4,20 x 2,30 Meter plus Deichsel
 
 ## Preis
 
