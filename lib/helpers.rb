@@ -19,3 +19,10 @@ def image_tag(path, options)
     <img src="/images/#{path}" #{options.map { |k,v| "#{k}=\"#{v}\""}.join(' ')}>
   HTML
 end
+
+def item_id
+  filename = @item[:filename]
+  ['.md', '.haml', '.html', '.xml'].inject(filename) { |basename, extension|
+    File.basename(basename, extension)
+  }
+end
