@@ -9,7 +9,7 @@ keywords:
 # Aktuelles
 
 {::nomarkdown}
-<%= margin_image('zirkuswagen-klein.jpg', :alt => 'Zirkuswagen', :polaroid => true) %>
+<%= margin_image('zirkuswagen-klein.jpg', :alt => 'Zirkuswagen', :polaroid => true, :href => '/zirkuswagen/') %>
 {:/}
 
 ## [06/2012 — Schöne Orte selbstgemacht: Zirkuswagen zu verkaufen](/zirkuswagen/)
@@ -19,7 +19,7 @@ klein und schnuckelig, 4m lang, aus Holz, prima geeignet als individuelles Gäst
 
 
 {::nomarkdown}
-<%= margin_image('deklination.jpg', :alt => 'Magnetische Deklination', :polaroid => true) %>
+<%= margin_image('deklination.jpg', :alt => 'Magnetische Deklination', :polaroid => true, :href => '/magnetische-deklination/') %>
 {:/}
 
 ## [05/2012 — Historischer Deklinationsrechner](/magnetische-deklination/)
@@ -28,7 +28,7 @@ Gimmick für Feng-Shui-KollegInnen: Endlich den magnetischen Norden berechnen f�
 [(mehr...)](/magnetische-deklination/)
 
 {::nomarkdown}
-<%= margin_image('radio-klein.jpg', :alt => 'Radio', :polaroid => true) %>
+<%= margin_image('radio-klein.jpg', :alt => 'Radio', :polaroid => true, :href => '/fritz-wohnt/') %>
 {:/}
 
 ## [04/2012 — Sanna Rehfeld auf Radio Fritz](/fritz-wohnt/)

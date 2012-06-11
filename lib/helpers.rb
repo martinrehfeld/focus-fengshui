@@ -4,7 +4,9 @@ def margin_image(image_path, options={})
       <div class="margin-image">
         #{options[:polaroid] && "<div class=\"polaroid-image\">"}
           <p>
+            #{options[:href] && "<a href=\"#{options[:href]}\">"}
             #{image_tag image_path, options}
+            #{options[:href] && "</a>"}
           </p>
         #{options[:polaroid] && "</div>"}
       </div>
