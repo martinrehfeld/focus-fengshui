@@ -1,13 +1,9 @@
 ---
 title: Radio Fritz Special
-excerpt: 'Exklusiv für Radio Fritz Hörer: Gua Typ bestimmen und Kurzberatung
-zum Sonderpreis buchen'
 keywords:
   - Special
-  - Sonderkonditionen
   - rbb
   - Radio Fritz
-  - Kurzberatung
   - focus fengshui
   - Sanna Rehfeld
 ---
@@ -23,8 +19,7 @@ Für anderthalb Stunden stand die 2-Zimmer-Wohnung mit kleinem Garten im Mittelp
 <% content_for :sidebar do %>
 {:/}
 
-Radiobeitrag:
-{:style="max-width:230px;" class="dark"}
+## Radiobeitrag:
 
 <object height="81" width="230"> <param name="movie"
 value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F40290328&amp;show_comments=false&amp;auto_play=false&amp;color=040305"></param>
@@ -33,8 +28,7 @@ allowscriptaccess="always" height="81"
 src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F40290328&amp;show_comments=false&amp;auto_play=false&amp;color=040305"
 type="application/x-shockwave-flash" width="230"></embed> </object>
 
-Radio mit Bildern:
-{:style="max-width:230px;" class="dark"}
+## Radio mit Bildern:
 
 <embed type="application/x-shockwave-flash"
 src="http://www.fritz.de/fri/js/mediaplayer/player.swf" width="230"

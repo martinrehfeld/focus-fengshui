@@ -113,6 +113,10 @@
     }
 
     .sidebar {
+      .sidebar-box {
+        h2:first-child { padding-top: 48px; }
+      }
+
       color: $sidebar-text-color;
 
       p.dark {
@@ -133,8 +137,12 @@
       }
 
       embed {
-        margin-top: 20px;
+        margin-top: 0;
         margin-bottom: 0;
+      }
+
+      object {
+        margin-bottom: 8px;
       }
     }
 
