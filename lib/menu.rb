@@ -12,7 +12,7 @@ def menu_item(text, target, attributes={})
   attributes[:class] << "level#{item.path.count('/') - 1}"
 
   # mark current item
-  if item == @item
+  if item == @item || item == item_with_identifier(@item[:menu_item])
     attributes[:class] << ' current'
   end
 

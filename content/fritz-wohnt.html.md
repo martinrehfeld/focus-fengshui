@@ -1,5 +1,6 @@
 ---
 title: Radio Fritz Special
+menu_item: /aktuelles/
 keywords:
   - Special
   - rbb

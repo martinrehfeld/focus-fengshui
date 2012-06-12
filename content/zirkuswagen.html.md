@@ -1,5 +1,6 @@
 ---
 title: Zirkuswagen zu verkaufen
+menu_item: /aktuelles/
 excerpt: 'Schöne Orte: Holz Zirkuswagen zu verkaufen'
 keywords:
   - Zirkuswagen
