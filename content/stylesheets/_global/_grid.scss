@@ -41,6 +41,10 @@ header, #main {
     @include eleven40-twelvecol;
     padding: 20px;
   }
+
+  #main footer .site-info {
+    padding-left: 0;
+  }
 }
 
 .clearfix {
