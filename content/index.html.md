@@ -40,13 +40,8 @@ Tel 0172 / 680 44 48
 {::nomarkdown}
 <% content_for :sidebar do %>
 {:/}
-<embed type="application/x-shockwave-flash"
-src="http://www.fritz.de/fri/js/mediaplayer/player.swf" width="230"
-height="159" style="undefined" id="mpl" name="mpl" quality="high"
-allowfullscreen="true" allowscriptaccess="always" wmode="opaque"
-flashvars="skin=http://www.fritz.de/fri/js/mediaplayer/skins/fritzSkin/fritzSkin.xml&amp;streamer=rtmp://ondemand.rbb-online.de/ondemand&amp;file=/frz/vj/2012/03/feng_shui.mp4&amp;image=http://www.fritz.de/etc/medialib/rbb/fri/bilder/beitraege/media/fritz_tv/vorschau_sonja_feng.file.407.229.jpg">
 
-![Sanna Rehfeld zu Hause bei der Moderatorin Sonja Koppitz für Radio Fritz](/images/bildunterschrift.png)
+[![Gimmick für Feng-Shui-KollegInnen](/images/gimmick.png)](/magnetische-deklination/)
 {::nomarkdown}
 <% end %>
 {:/}
