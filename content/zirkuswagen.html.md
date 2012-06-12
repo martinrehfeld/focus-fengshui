@@ -17,22 +17,24 @@ Kinder und und und. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modern
 ## Ausstattung
 
 * Holzfenster und -türen, Isolier-Doppelverglasung, Fenster können gekippt werden
-* Originalgetreue Außenverkleidung in typischem "Sachsenstab" Profil,
-  Messingschlitzschrauben auf Rosetten gesetzt
-* Super Raumklima dank ökologischer Dämmung aus Hanf inkl. Windbremse
-* Fußboden aus Eichenparkett
-* Gasheizung von Vaillant, Flaschenanschluss unterhalb des Wagens
+* Originalgetreue Außenverkleidung aus Lärche in typischem "Sachsenstab" Profil,
+  Messingschlitzschrauben auf Messingrosetten gesetzt
+* Super Raumklima dank ökologischer Dämmung aus Hanf inkl. Windbremse,
+  wintertauglich
+* Fußboden aus geölter Eichendielung
+* Raumluftunabhängige Gasheizung von Vaillant, Flaschenanschluss unterhalb des Wagens
 * Elektroinstallation mit Doppelsteckdose in jeder Wagenecke, zentralem
   Sicherungskasten inkl. Stromzähler, Anschluss sowohl mit Camping-Stecker als
   auch normaler Schutzkontakt-Kupplung
 * Abnehmbarer und zerlegbarer Holz Terassenvorbau (kann zum Transport
-  größtenteils im Kasten unterhalb des Wagens verstaut werden)
-* Maße: ca. 4,20 x 2,30 Meter plus Deichsel
+  größtenteils im Kasten unterhalb des Wagens verstaut werden). Deckholz:
+  Douglasie, Maße: ca. 3,00 x 1,50 Meter
+* Wagenmaß: ca. 4,20 x 2,30 Meter (ohne Deichsel)
 
 ## Preis
 
 zu verkaufen für **VB 12.600 € netto** zzgl. 19% Mwst. = 14.994 €\\
-Neupreis 2008: 21.500 €
+Neupreis Sommer 2008: 21.500 €
 
 ## Bildergalerie
 
@@ -56,7 +58,7 @@ Martin Rehfeld, Berlin\\
 <martin.rehfeld@glnetworks.de>\\
 Telefon (030) 343 585 05
 
-## Standort des Wagens
+## Derzeitiger Standort
 Nähe Beelitz bei Berlin
 
 {::nomarkdown}
