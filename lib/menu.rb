@@ -1,3 +1,5 @@
+include Nanoc3::Helpers::Breadcrumbs
+
 def menu_item(text, target, attributes={})
   # Find item
   item = target.is_a?(String) ? items.detect { |item| item.path == target } : target
