@@ -1,5 +1,6 @@
 ---
 title: Feng Shui Grundlagen
+menu_item: /feng-shui/
 ---
 
 # Grundlagen

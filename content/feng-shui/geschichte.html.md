@@ -1,5 +1,6 @@
 ---
 title: Geschichte
+menu_item: /feng-shui/
 ---
 
 # Ein Hauch Geschichte
