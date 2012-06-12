@@ -11,8 +11,7 @@ keywords:
 
 # Kleiner Holz-Zirkuswagen für Liebhaber
 
-Perfekt als origineller Pavillon, Gästezimmer, Spielwiese für
-Kinder und und und. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modernisiert und umgebaut und in den letzten Jahren als Büro genutzt.
+Mit seinen schnuckeligen 4 Metern eignet er sich perfekt als origineller Pavillon, Gästezimmer oder Spielhaus für Kinder. Der Wagen wurde 2008 von einem Fachbetrieb aufwändig modernisiert und umgebaut und in den letzten Jahren als Büro genutzt.
 
 ## Ausstattung
 
