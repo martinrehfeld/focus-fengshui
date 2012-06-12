@@ -39,23 +39,23 @@
           %section.content
             = yield
 
-            %footer
-              .site-info
-                %p
-                  %span.copyright &copy; 2012 focus fengshui
-                  |
-                %nav.site
-                  = link_to 'Home', '/'
-                  |
-                  = link_to 'Kontakt', '/kontakt/'
-                  |
-                  = link_to 'Impressum', '/impressum/'
-
           %section.sidebar
             .sidebar-box
               - unless @item[:content_for_image].blank?
                 .polaroid-image= @item[:content_for_image]
                 .clearfix
               = @item[:content_for_sidebar]
+
+          %footer
+            .site-info
+              %p
+                %span.copyright &copy; 2012 focus fengshui
+                |
+              %nav.site
+                = link_to 'Home', '/'
+                |
+                = link_to 'Kontakt', '/kontakt/'
+                |
+                = link_to 'Impressum', '/impressum/'
 
   = render 'google-analytics'

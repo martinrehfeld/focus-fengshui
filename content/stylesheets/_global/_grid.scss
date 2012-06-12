@@ -22,6 +22,14 @@ header, #main {
     @include eleven40-fourcol;
     @include eleven40-last;
   }
+
+  footer {
+    @include eleven40-twelvecol;
+    @include eleven40-last;
+    .site-info {
+      padding-left: 25.95%;
+    }
+  }
 }
 
 .error-page {
