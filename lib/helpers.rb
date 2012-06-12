@@ -22,9 +22,6 @@ def image_tag(path, options)
   HTML
 end
 
-def item_id
-  filename = @item[:filename]
-  ['.md', '.haml', '.html', '.xml'].inject(filename) { |basename, extension|
-    File.basename(basename, extension)
-  }
+def page_id
+  File.basename @item.identifier
 end
