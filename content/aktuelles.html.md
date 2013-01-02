@@ -9,16 +9,6 @@ keywords:
 # Aktuelles
 
 {::nomarkdown}
-<%= margin_image('zirkuswagen-klein.jpg', :alt => 'Zirkuswagen', :polaroid => true, :href => '/zirkuswagen/') %>
-{:/}
-
-## [06/2012 — Schöne Orte selbstgemacht: Zirkuswagen zu verkaufen](/zirkuswagen/)
-
-klein und schnuckelig, 4m lang, aus Holz, prima geeignet als individuelles Gästezimmer im Garten, Büro oder Kinderspielhaus
-[(mehr...)](/zirkuswagen/)
-
-
-{::nomarkdown}
 <%= margin_image('deklination.jpg', :alt => 'Magnetische Deklination', :polaroid => true, :href => '/magnetische-deklination/') %>
 {:/}
 
