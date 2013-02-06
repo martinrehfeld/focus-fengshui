@@ -9,13 +9,13 @@ Pflege der Inhalte
    in das Projektverzeichnis wechseln.
 
 2. **Inhalte editieren**:
-   Die Inhalte liegen im Verzeichnis `content/` und können zum Beispiel im
+   Die Inhalte liegen im Verzeichnis `content/` vom Programm Text Wrangler (diesem hier!) und können zum Beispiel im
    Markdown-Format erstellt werden, vgl. [Markdown Syntax](http://kramdown.rubyforge.org/quickref.html).
    Dateien im Markdown-Format müssen die Endung .html.md erhalten.
 
 3. **Seitenvorschau**:
    Im Terminal `rake watch` ausführen und im Webbrowser die Vorschau unter
-   <http://localhost:3000> aufrufen.
+   <http://localhost:3000> aufrufen (ohne dass es bereits im Internet aktualisiert wurde).
 
 4. **Seite publizieren**:
    Das im Terminal ggf. laufende `rake watch` aus Schritt 3 kann mit `Ctrl+C`
