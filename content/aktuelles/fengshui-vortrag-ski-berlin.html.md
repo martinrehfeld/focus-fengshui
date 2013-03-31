@@ -7,7 +7,7 @@ In Kooperation mit dem Verein stadtkultur international ev:
 
 #  Vortrag "Feng Shui als Methodenkoffer für Raumanalysen und Inspiration"
 
-von Dipl.Ing. Sanna Rehfeld, Mitglied stadtkultur international ev
+von Dipl. Ing. Sanna Rehfeld, Mitglied stadtkultur international ev
 
 
 Termin: Donnerstag, 18.04.2013, 20:00 Uhr<br>
@@ -18,9 +18,9 @@ Unter Feng Shui werden zahlreiche Methoden zusammengefasst, die zum Ziel haben, 
 
 
 Im Anschluss an den Vortrag gibt es Zeit zur Diskussion.<br>
-Anmeldung bis 14.04.13 erbeten bei Tanja Reith unter reith@stadtkultur-international.de
+Anmeldung bis 14.04.13 erbeten bei Tanja Reith unter <reith@stadtkultur-international.de>
 
-www.stadtkultur-international.de<br>
+[www.stadtkultur-international.de](http://www.stadtkultur-international.de)<br>
 Kastanienallee 29/30<br>
 10435 Berlin<br>
 Tel.: +49-30-78704501
@@ -31,7 +31,7 @@ Tel.: +49-30-78704501
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Südchina Wiege des Landschaftsfengshui](/images/suedchina-wiege-des-landschaftsfengshui.jpg)
+![Südchina Wiege des Landschaftsfengshui](/images/suedchina-wiege-des-landschaftsfengshui.jpg){:title="Guanxi in Südchina - Wiege des Landschafts-Fengshui (Foto: Sanna Rehfeld, 2011)"}
 
 {::nomarkdown}
 <% end %>
