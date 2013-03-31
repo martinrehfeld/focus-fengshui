@@ -9,6 +9,15 @@ keywords:
 # Aktuelles
 
 {::nomarkdown}
+<%= margin_image('guangzhou-museum-aktuelles.jpg', :alt => 'Ausschnitt Museum Guangzhou', :polaroid => true, :href => '/aktuelles/fengshui-vortrag-ski-berlin/') %>
+{:/}
+
+## [04/2013 — Feng Shui Vortrag](/aktuelles/fengshui-vortrag-ski-berlin/)
+
+18.04.2013, 20:00 Uhr Vortrag im Verein stadtkultur international ev: "Feng Shui als Methodenkoffer für Raumanalyse und Inspiration"
+[(mehr...)](/aktuelles/fengshui-vortrag-ski-berlin/)
+
+{::nomarkdown}
 <%= margin_image('deklination.jpg', :alt => 'Magnetische Deklination', :polaroid => true, :href => '/magnetische-deklination/') %>
 {:/}
 

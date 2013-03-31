@@ -11,6 +11,7 @@ Co-Geschäftsführerin eines jungen Familienunternehmens
 - Ausbildung zur zertifizierten Feng-Shui-Beraterin am Feng Shui College Berlin FSCB
 - Fortbildungen in den Bereichen Gartengestaltung+Feng Shui sowie Farbe+Feng Shui
 - Mitglied im Berufsverband für Feng Shui und Geomantie e.V.
+- Mitglied im Verein stadtkultur international e.V.
 
 ## Arbeitsweise
 
@@ -34,6 +35,8 @@ Bebauungsplanung und Stadtentwicklung in kleinen und größeren Planungsbüros, 
 - Auf dem eigenen Weg:
 Selbständigkeit als Feng Shui-Beraterin und Stadt- und Regionalplanerin
 
+Seit 2011 intensive Auseinandersetzung mit der chinesischen Kultur, Geschichte und Sprache. Motivationskick in 2013: Vorbereitung auf die ersten zwei Level des internationalen Chinesisch-Sprachtests HSK Hanyu Shuiping Kaoshi
+
 ## Erfahrungen im Wohnen
 
 - alleine, zu zweit, mit Familie, im 3-Generationen-Haushalt, in der Wagenburg, in der Lebens- und Arbeitsgemeinschaft
@@ -44,7 +47,7 @@ Selbständigkeit als Feng Shui-Beraterin und Stadt- und Regionalplanerin
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Ginkgo](/images/ginkgo.jpg)
+![Sanna Rehfeld](/images/sannarehfeld.jpg)
 {::nomarkdown}
 <% end %>
 {:/}
