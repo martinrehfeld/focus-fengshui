@@ -41,7 +41,15 @@ Tel 0172 / 680 44 48
 <% content_for :sidebar do %>
 {:/}
 
-[![Gimmick für Feng-Shui-KollegInnen](/images/gimmick.png)](/magnetische-deklination/)
+[18.04.2013 nächster Vortrag:](/aktuelles/fengshui-vortrag-ski-berlin/)
+<br>"Feng Shui als Methodenkoffer
+<br>für Raumanalyse und Inspiration"
+<br>c/o stadtkultur international ev
+
+
+[Historischer Deklinationsrechner:](/magnetische-deklination/)
+<br>Magnetischen Norden berechnen
+<br>für Gebäude ab 1590
 {::nomarkdown}
 <% end %>
 {:/}

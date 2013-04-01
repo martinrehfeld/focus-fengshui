@@ -5,7 +5,7 @@ menu_item: /aktuelles/
 
 In Kooperation mit dem Verein stadtkultur international ev:
 
-#  Vortrag "Feng Shui als Methodenkoffer für Raumanalysen und Inspiration"
+#  Vortrag<br>"Feng Shui als Methodenkoffer<br>für Raumanalysen und Inspiration"
 
 von Dipl. Ing. Sanna Rehfeld, Mitglied stadtkultur international ev
 
@@ -19,6 +19,10 @@ Unter Feng Shui werden zahlreiche Methoden zusammengefasst, die zum Ziel haben, 
 
 Im Anschluss an den Vortrag gibt es Zeit zur Diskussion.<br>
 Anmeldung bis 14.04.13 erbeten bei Tanja Reith unter <reith@stadtkultur-international.de>
+
+
+ski - stadtkultur international ev fördert den Kulturaustausch zwischen Berlin und anderen großen Städten der Welt. Seine Mitglieder sind Architekten und Stadtplaner, Berater, Juristen, Sinologen und Geographen. Der Schwerpunkt der Arbeit von stadtkultur international liegt im Bereich Architektur und Städtebau, umfasst aber auch andere Fragen der Kultur und gesellschaftlichen Entwicklung in Städten. Besonderes Augenmerk liegt dabei auf der dynamischen Entwicklung in der VR China.
+
 
 [www.stadtkultur-international.de](http://www.stadtkultur-international.de)<br>
 Kastanienallee 29/30<br>
