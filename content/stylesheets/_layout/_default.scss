@@ -132,7 +132,13 @@
       }
 
       a {
+        font-weight: bold;
         @include hover-link;
+        @include link-colors($text-color, $link-hover-color);
+      }
+
+      .polaroid-image a {
+        font-weight: normal;
         @include link-colors($sidebar-text-color, $link-hover-color);
       }
 
