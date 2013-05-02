@@ -33,6 +33,7 @@ Philipp Mahltig:<br> "Westliche Technik in China: Umgang und Umbau"<br>
 
 Joans Fahlbusch:<br> "Europäische Travestien der chinesischen Stadt"<br>
 
+Sun Lie:<br> "Windkraft im alten China"<br>
 
 Die Veranstaltung ist Partnerprogramm zu den Asien-Pazifik-Wochen Berlin vom 05. bis 14. Juni 2013. Das diesjährige Motto lautet "Smart Cities": Großstädte sind für unsere Zukunft von zunehmender globaler Bedeutung: Sie sind die Herausforderung und Chance des 21. Jahrhunderts. Ob in Berlin oder den wachsenden Megacities Asiens, urbane Herausforderungen brauchen smarte Lösungen. [http://apwberlin.de/](http://apwberlin.de)
 
