@@ -41,10 +41,10 @@ Tel 0172 / 680 44 48
 <% content_for :sidebar do %>
 {:/}
 
-[18.04.2013 nächster Vortrag:](/aktuelles/fengshui-vortrag-ski-berlin/)
-<br>"Feng Shui als Methodenkoffer
-<br>für Raumanalyse und Inspiration"
-<br>c/o stadtkultur international ev
+[08.06.2013 nächster Vortrag:](/aktuelles/vortrag-chinesischer-garten/)
+<br>"Der Chinesische Garten in
+<br>Berlin-Marzahn" auf der
+<br>Langen Nacht der Wissenschaften
 
 
 [Historischer Deklinationsrechner:](/magnetische-deklination/)
