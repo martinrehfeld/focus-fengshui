@@ -41,9 +41,9 @@ Tel 0172 / 680 44 48
 <% content_for :sidebar do %>
 {:/}
 
-[08.06.2013 nächster Vortrag:](/aktuelles/vortrag-chinesischer-garten/)
-<br>"Der Chinesische Garten in
-<br>Berlin-Marzahn" auf der
+[Der Chinesische Garten in Berlin](/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/)
+<br>Rückblick zur Pecha Kucha Reihe
+<br>"China in 6:40 min" auf der
 <br>Langen Nacht der Wissenschaften
 
 

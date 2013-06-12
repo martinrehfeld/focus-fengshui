@@ -9,7 +9,7 @@ Lange Nacht der Wissenschaften:<br> Pecha Kucha - China in 6,40 Minuten
 
 Bereits zum zweiten Mal präsentieren ExpertInnen vom China-Center der TU Berlin und von Stadtkultur International e. V. auf der Langen Nacht der Wissenschaften  unterhaltsame Beiträge über China. Das Format "Pecha Kucha" zeigt 20 Folien á 20 Sekunden - ein kurzweiliges Vergnügen für alle, die in die verschiedenen Themen hineinschnuppern möchten.
 
-Termin: 08.06.2013, 16:00 - 24:00 Uhr<br>Ort: TU Berlin Hauptgebäude, Straße des 17. Juni 135, Raum H 107
+Termin: 08.06.2013, 18:00 - 24:00 Uhr<br>Ort: TU Berlin Hauptgebäude, Straße des 17. Juni 135, Raum H 107
 
 PROGRAMM<br>
 
@@ -41,7 +41,7 @@ Die Veranstaltung ist Partnerprogramm zu den Asien-Pazifik-Wochen Berlin vom 05.
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Der Chinesische Garten in Berlin-Marzahn](/images/gaerten-der-welt.jpg){:title="Der Chinesische Garten in Berlin-Marzahn (Foto: Sanna Rehfeld, 2011)"}
+![Der Chinesische Garten in Berlin-Marzahn](/images/gaerten-der-welt.jpg){:title="Der Chinesische Garten in Berlin-Marzahn (Foto: Sanna Rehfeld, 2012)"}
 
 {::nomarkdown}
 <% end %>

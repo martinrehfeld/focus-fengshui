@@ -5,9 +5,22 @@ keywords:
   - Deklinationsrechner
   - Chinesischer Garten
   - Gärten der Welt
+  - Lange Nacht der Wissenschaften
+  - Feng Shui
+  - Vortrag
+
 ---
 
 # Aktuelles
+
+{::nomarkdown}
+<%= margin_image('china-pechakucha-aktuelles.jpg', :alt => 'China in 6:40 min auf der Langen Nacht der Wissenschaften', :polaroid => true, :href => '/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/') %>
+{:/}
+
+## [09.06.2013 — Rückblick auf die Pecha Kucha Reihe: "China in 6:40 min" auf der Langen Nacht der Wissenschaften](/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/)
+
+11 Vorträge über China, Fake und den Chinesischen Garten in Berlin-Marzahn
+[(mehr...)](/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/)
 
 {::nomarkdown}
 <%= margin_image('gaerten-der-welt-aktuelles.jpg', :alt => 'Chinesischer Garten in den Gärten der Welt', :polaroid => true, :href => '/aktuelles/vortrag-chinesischer-garten/') %>

@@ -5,7 +5,7 @@ Pflege der Inhalte
 ------------------
 
 1. **Vorbereitung**:
-   Terminal.app starten und mittels `cd ~/Sites/focus-fengshui.de`
+   Terminal.app starten und mittels `cd ~/Sites/focus-fengshui.de` - ohne Anführungsstrichelchen, denn es sind ja nur Notizen für mich und Martin hat das netterweise reingeschrieben, aber nach seiner Art. -
    in das Projektverzeichnis wechseln.
 
 2. **Inhalte editieren**:
