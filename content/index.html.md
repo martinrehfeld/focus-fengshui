@@ -41,10 +41,10 @@ Tel 0172 / 680 44 48
 <% content_for :sidebar do %>
 {:/}
 
-[Der Chinesische Garten in Berlin](/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/)
-<br>Rückblick zur Pecha Kucha Reihe
-<br>"China in 6:40 min" auf der
-<br>Langen Nacht der Wissenschaften
+[Aktuelles Projekt: Kita Wilski 75](/aktuelles/umgestaltung-kita-wilski-75/)
+<br>Umgestaltung des Kindergartens
+<br>der Kita Wilskistraße 75 in Berlin
+<br>mit Feng Shui und Terra Preta
 
 
 [Historischer Deklinationsrechner:](/magnetische-deklination/)
