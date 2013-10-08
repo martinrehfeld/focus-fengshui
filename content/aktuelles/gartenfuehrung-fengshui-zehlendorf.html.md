@@ -54,13 +54,14 @@ Bei der gemeinsamen Pflanzaktion helfen Groß und Klein mit:
 ![Kita Wilskistraße Pflanzaktion Kinder](/images/kita-wilski-pflanzaktion-alle-helfen2.jpg){:title="Pflanzaktion am 29.09.2013 (Foto: Martin Rehfeld, 2013)"}
 
 
+Kita-Gärten verschwinden ohne Pflege:
 
 ![Kita Wilskistraße Neuanpflanzung der Hecke](/images/kita-wilski-hecke-vorher.jpg){:title="fehlender Sichtschutz zur Wilskistraße hin (Foto: Sanna Rehfeld, 2012)"}
 Zur Wilskistraße hin wurde die Hecke in den letzten Jahrzehnten weggespielt.
 
 
 ![Kita Wilskistraße Neuanpflanzung der Hecke](/images/kita-wilski-hecke-nachher.jpg){:title="neuer Sichtschutz zur Wilskistraße hin (Foto: Martin Rehfeld, 2013)"}
-Blütensträucher und rankender Wein grenzen die Spielfläche zur Straße hin ab. Während des Anwachsens ist die Pflanzfläche tabu - später dürfen die Kinder durch die Büsche kriechen und sich in der Höhle verstecken.
+Blütensträucher und rankender Wein grenzen nun die Spielfläche zur Straße hin ab. Während des Anwachsens ist die Pflanzfläche tabu - später dürfen die Kinder durch die Büsche kriechen und sich in der Höhle verstecken.
 
 
 ![Kita Wilskistraße Spielhügel auf Bolzplatz](/images/kita-wilski-bolzplatz-kinder.jpg){:title="Kinderglück auf neuem Hügel (Foto: Martin Rehfeld, 2013)"}
