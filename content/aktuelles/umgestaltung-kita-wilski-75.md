@@ -17,6 +17,8 @@ Grillfest fachgerecht unter die Erde gebracht. Wer noch eine Aktion sucht für
 seine Mitwirkung an der "Berliner Engagement Woche" ist herzlich eingeladen,
 ein Stück Kinderalltag spannender zu gestalten.
 
+[->weitere Infos und Bilder zu der Aktion finden Sie hier](http://www.focus-fengshui.de/aktuelles/gartenfuehrung-fengshui-zehlendorf/)
+
 Der Garten ist durch dichten Baumbestand, staubigen Sandboden und abgespielte
 Pflanzflächen geprägt. Früher spielten hier Hort-Kinder, mittlerweile wird die
 Fläche verstärkt von ein- bis dreijährigen Kindern genutzt. Um diesen neuen
