@@ -10,13 +10,13 @@ keywords:
 # Aktuelles
 
 {::nomarkdown}
-<%= margin_image('fengshui-terrapreta-aktuelles.jpg', :alt => 'Feng Shui und Terra Preta', :polaroid => true, :href => '/aktuelles/umgestaltung-kita-wilski-75/') %>
+<%= margin_image('fengshui-terrapreta-aktuelles.jpg', :alt => 'Feng Shui und Terra Preta', :polaroid => true, :href => '/aktuelles/gartenfuehrung-fengshui-zehlendorf/') %>
 {:/}
 
-## [29.09.2013 — Lebendige Orte schaffen im Zehlendorfer Sand: Mit Feng Shui und Terra Preta](/aktuelles/umgestaltung-kita-wilski-75/)
+## [26.10.2013 — Lebendige Orte schaffen im Zehlendorfer Sand: Mit Feng Shui und Terra Preta](/aktuelles/gartenfuehrung-fengshui-zehlendorf/)
 
-Sanna Rehfeld betreut die Neugestaltung des Garten in der Kita Wilskistraße 75 und lädt zur Gartenbesichtigung ein.
-[(mehr...)](/aktuelles/umgestaltung-kita-wilski-75/)
+Sanna Rehfeld betreut die Neugestaltung des Gartens in der Kita Wilskistraße 75 und lädt zur Gartenbesichtigung ein.
+[(mehr...)](/aktuelles/gartenfuehrung-fengshui-zehlendorf/)
 
 {::nomarkdown}
 <%= margin_image('china-pechakucha-aktuelles.jpg', :alt => 'China in 6:40 min auf der Langen Nacht der Wissenschaften', :polaroid => true, :href => '/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/') %>

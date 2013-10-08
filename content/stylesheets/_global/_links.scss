@@ -2,5 +2,9 @@ a {
   @include link-colors($link-color, $link-hover-color);
   text-decoration: none;
   border-bottom: none;
+  font-weight: bold;
+}
+
+footer .site-info a {
   font-weight: normal;
 }

@@ -41,10 +41,10 @@ Tel 0172 / 680 44 48
 <% content_for :sidebar do %>
 {:/}
 
-[Aktuelles Projekt: Kita Wilski 75](/aktuelles/umgestaltung-kita-wilski-75/)
-<br>Umgestaltung des Kindergartens
-<br>der Kita Wilskistraße 75 in Berlin
-<br>mit Feng Shui und Terra Preta
+[26.10.2013 Gartenführung](/aktuelles/gartenfuehrung-fengshui-zehlendorf/)
+<br>zu Feng Shui und Terra Preta
+<br>in der Kita Wilskistraße 75
+<br>14163 Berlin-Zehlendorf
 
 
 [Historischer Deklinationsrechner:](/magnetische-deklination/)

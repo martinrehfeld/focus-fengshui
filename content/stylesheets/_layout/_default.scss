@@ -110,6 +110,14 @@
           left: 120%;
         }
       }
+
+      p > img {
+        width: auto;
+        height: auto;
+        max-width: none;
+        max-height: none;
+        display: block;
+      }
     }
 
     .sidebar {
