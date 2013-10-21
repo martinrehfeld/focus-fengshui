@@ -5,7 +5,7 @@
       document.createElement(n);
     });
 
-    $(this.addToplinks);
+    // $(this.addToplinks);
     $(global).resize(this.doLayout);
     $(this.doLayout);
   },

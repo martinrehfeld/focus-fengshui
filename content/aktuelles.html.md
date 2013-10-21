@@ -10,6 +10,27 @@ keywords:
 # Aktuelles
 
 {::nomarkdown}
+<%= margin_image('ymy-seidenmalerei2-aktuelles.jpg', :alt => 'Seidenmalerei Yuanming Yuan', :polaroid => true, :href => '/aktuelles/yuanmingyuan-vortrag-wuerzburg/') %>
+{:/}
+
+## [09.11.2013: Vom Hyperraum zum virtuellen Raum: Die 4D-Rekonstruktion des Alten Sommerpalastes in Peking](/aktuelles/yuanmingyuan-vortrag-wuerzburg/)
+
+Vortrag auf der Jahrestagung der Deutschen Vereinigung für Chinastudien e.V., die vom 08. bis 09.11.2013 zum Thema "Raum und Grenze" nach Würzburg einlädt.
+[(mehr...)](/aktuelles/yuanmingyuan-vortrag-wuerzburg/)
+
+
+{::nomarkdown}
+<%= margin_image('baozhi-zeitung-aktuelles.jpg', :alt => 'Baozhi Chinesisch für Zeitung', :polaroid => true, :href => '/aktuelles/artikel-dcw-focus-fengshui/') %>
+{:/}
+
+## [Okt. 2013: Artikel über focus fengshui in der dcw ](/aktuelles/artikel-dcw-focus-fengshui/)
+
+Wang Yan schreibt in der Zeitung "Deutsch-Chinesische Welt" über Feng Shui in Deutschland und stellt die Gartengestaltung der Kita Wilskistraße in Berlin-Zehlendorf vor.
+[(mehr...)](/aktuelles/artikel-dcw-focus-fengshui/)
+
+
+
+{::nomarkdown}
 <%= margin_image('fengshui-terrapreta-aktuelles.jpg', :alt => 'Feng Shui und Terra Preta', :polaroid => true, :href => '/aktuelles/gartenfuehrung-fengshui-zehlendorf/') %>
 {:/}
 
@@ -17,6 +38,15 @@ keywords:
 
 Sanna Rehfeld betreut die Neugestaltung des Gartens in der Kita Wilskistraße 75 und lädt zur Gartenbesichtigung ein.
 [(mehr...)](/aktuelles/gartenfuehrung-fengshui-zehlendorf/)
+
+{::nomarkdown}
+<%= margin_image('ymy-seidenmalerei1-aktuelles.jpg', :alt => 'Seidenmalerei Yuanming Yuan', :polaroid => true, :href => '/aktuelles/yuanmingyuan-vortrag-berlin/') %>
+{:/}
+
+## [13.08.2013 — Der Alte Sommerpalast in Peking - ](/aktuelles/yuanmingyuan-vortrag-berlin/)
+
+Filmmitschnitt vom Vortrag über die Geschichte und virtuelle Rekonstruktion des Yuanming Yuan - eine Portion Kulturgeschichte zu Gartengestaltung, Architektur und Denkmalschutz für Absolventen und Schülern des Feng Shui Centers Berlin
+[(mehr...)](/aktuelles/yuanmingyuan-vortrag-berlin/)
 
 {::nomarkdown}
 <%= margin_image('china-pechakucha-aktuelles.jpg', :alt => 'China in 6:40 min auf der Langen Nacht der Wissenschaften', :polaroid => true, :href => '/aktuelles/lange-nacht-der-wissenschaften-pechakucha-china-2013/') %>
