@@ -24,7 +24,7 @@ Weitere Infos unter [www.d-c-w.org](http://www.d-c-w.org)
 {::nomarkdown}
 <% content_for :image do %>
 {:/}
-![Chineische Zeichen für Zeitung](/images/baozhi-zeitung.jpg){:title="Baòzhǐ -   chinesisch für Zeitung"}
+![Chinesische Zeichen für Zeitung](/images/baozhi-zeitung.jpg){:title="Baòzhǐ -   chinesisch für Zeitung"}
 
 {::nomarkdown}
 <% end %>
